@@ -1,4 +1,5 @@
-﻿using Android.App;
+﻿using System.Collections.Generic;
+using Android.App;
 using Android.OS;
 using Android.Runtime;
 using Android.Widget;
@@ -24,7 +25,11 @@ namespace BarcodeScanner
             buttonScan.Click += async (sender, e) =>
             {
                 var scanner = new MobileBarcodeScanner();
-                var result = await scanner.Scan();
+
+                var options = new MobileBarcodeScanningOptions();
+                options.PossibleFormats = new List<ZXing.BarcodeFormat> { ZXing.BarcodeFormat.QR_CODE };
+
+                var result = await scanner.Scan(options);
 
                 if(result != null)
                 {
