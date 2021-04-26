@@ -4,4 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="10sp"
+		android:id="@+id/linearLayout1" >
+		<Button
+			android:text="@string/button_barcode_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10sp"
+			android:id="@+id/buttonScan" />
+		<TextView
+			android:text=""
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10sp"
+			android:id="@+id/textViewBarcodeResult" />
+		<TextView
+			android:text=""
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textViewBarcodeFormat" />
+	</LinearLayout>
+
 </RelativeLayout>

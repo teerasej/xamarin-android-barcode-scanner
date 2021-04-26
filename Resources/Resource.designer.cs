@@ -215,6 +215,1729 @@ namespace BarcodeScanner
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::BarcodeScanner.Resource.Styleable.GradientColor_android_type;
 			global::Xamarin.Essentials.Resource.Xml.image_share_filepaths = global::BarcodeScanner.Resource.Xml.image_share_filepaths;
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::BarcodeScanner.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_fade_in = global::BarcodeScanner.Resource.Animation.abc_fade_in;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_fade_out = global::BarcodeScanner.Resource.Animation.abc_fade_out;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_grow_fade_in_from_bottom = global::BarcodeScanner.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_popup_enter = global::BarcodeScanner.Resource.Animation.abc_popup_enter;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_popup_exit = global::BarcodeScanner.Resource.Animation.abc_popup_exit;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_shrink_fade_out_from_bottom = global::BarcodeScanner.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_slide_in_bottom = global::BarcodeScanner.Resource.Animation.abc_slide_in_bottom;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_slide_in_top = global::BarcodeScanner.Resource.Animation.abc_slide_in_top;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_slide_out_bottom = global::BarcodeScanner.Resource.Animation.abc_slide_out_bottom;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_slide_out_top = global::BarcodeScanner.Resource.Animation.abc_slide_out_top;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_tooltip_enter = global::BarcodeScanner.Resource.Animation.abc_tooltip_enter;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_tooltip_exit = global::BarcodeScanner.Resource.Animation.abc_tooltip_exit;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::BarcodeScanner.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::BarcodeScanner.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::BarcodeScanner.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::BarcodeScanner.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::BarcodeScanner.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::BarcodeScanner.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::BarcodeScanner.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::BarcodeScanner.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::BarcodeScanner.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::BarcodeScanner.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::BarcodeScanner.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::BarcodeScanner.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarDivider = global::BarcodeScanner.Resource.Attribute.actionBarDivider;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarItemBackground = global::BarcodeScanner.Resource.Attribute.actionBarItemBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarPopupTheme = global::BarcodeScanner.Resource.Attribute.actionBarPopupTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarSize = global::BarcodeScanner.Resource.Attribute.actionBarSize;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarSplitStyle = global::BarcodeScanner.Resource.Attribute.actionBarSplitStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarStyle = global::BarcodeScanner.Resource.Attribute.actionBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarTabBarStyle = global::BarcodeScanner.Resource.Attribute.actionBarTabBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarTabStyle = global::BarcodeScanner.Resource.Attribute.actionBarTabStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarTabTextStyle = global::BarcodeScanner.Resource.Attribute.actionBarTabTextStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarTheme = global::BarcodeScanner.Resource.Attribute.actionBarTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarWidgetTheme = global::BarcodeScanner.Resource.Attribute.actionBarWidgetTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionButtonStyle = global::BarcodeScanner.Resource.Attribute.actionButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionDropDownStyle = global::BarcodeScanner.Resource.Attribute.actionDropDownStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionLayout = global::BarcodeScanner.Resource.Attribute.actionLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionMenuTextAppearance = global::BarcodeScanner.Resource.Attribute.actionMenuTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionMenuTextColor = global::BarcodeScanner.Resource.Attribute.actionMenuTextColor;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeBackground = global::BarcodeScanner.Resource.Attribute.actionModeBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeCloseButtonStyle = global::BarcodeScanner.Resource.Attribute.actionModeCloseButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeCloseDrawable = global::BarcodeScanner.Resource.Attribute.actionModeCloseDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeCopyDrawable = global::BarcodeScanner.Resource.Attribute.actionModeCopyDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeCutDrawable = global::BarcodeScanner.Resource.Attribute.actionModeCutDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeFindDrawable = global::BarcodeScanner.Resource.Attribute.actionModeFindDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModePasteDrawable = global::BarcodeScanner.Resource.Attribute.actionModePasteDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModePopupWindowStyle = global::BarcodeScanner.Resource.Attribute.actionModePopupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeSelectAllDrawable = global::BarcodeScanner.Resource.Attribute.actionModeSelectAllDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeShareDrawable = global::BarcodeScanner.Resource.Attribute.actionModeShareDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeSplitBackground = global::BarcodeScanner.Resource.Attribute.actionModeSplitBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeStyle = global::BarcodeScanner.Resource.Attribute.actionModeStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeWebSearchDrawable = global::BarcodeScanner.Resource.Attribute.actionModeWebSearchDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionOverflowButtonStyle = global::BarcodeScanner.Resource.Attribute.actionOverflowButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionOverflowMenuStyle = global::BarcodeScanner.Resource.Attribute.actionOverflowMenuStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionProviderClass = global::BarcodeScanner.Resource.Attribute.actionProviderClass;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionViewClass = global::BarcodeScanner.Resource.Attribute.actionViewClass;
+			global::ZXing.Net.Mobile.Resource.Attribute.activityChooserViewStyle = global::BarcodeScanner.Resource.Attribute.activityChooserViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.alertDialogButtonGroupStyle = global::BarcodeScanner.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.alertDialogCenterButtons = global::BarcodeScanner.Resource.Attribute.alertDialogCenterButtons;
+			global::ZXing.Net.Mobile.Resource.Attribute.alertDialogStyle = global::BarcodeScanner.Resource.Attribute.alertDialogStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.alertDialogTheme = global::BarcodeScanner.Resource.Attribute.alertDialogTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.allowStacking = global::BarcodeScanner.Resource.Attribute.allowStacking;
+			global::ZXing.Net.Mobile.Resource.Attribute.alpha = global::BarcodeScanner.Resource.Attribute.alpha;
+			global::ZXing.Net.Mobile.Resource.Attribute.alphabeticModifiers = global::BarcodeScanner.Resource.Attribute.alphabeticModifiers;
+			global::ZXing.Net.Mobile.Resource.Attribute.arrowHeadLength = global::BarcodeScanner.Resource.Attribute.arrowHeadLength;
+			global::ZXing.Net.Mobile.Resource.Attribute.arrowShaftLength = global::BarcodeScanner.Resource.Attribute.arrowShaftLength;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoCompleteTextViewStyle = global::BarcodeScanner.Resource.Attribute.autoCompleteTextViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoSizeMaxTextSize = global::BarcodeScanner.Resource.Attribute.autoSizeMaxTextSize;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoSizeMinTextSize = global::BarcodeScanner.Resource.Attribute.autoSizeMinTextSize;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoSizePresetSizes = global::BarcodeScanner.Resource.Attribute.autoSizePresetSizes;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoSizeStepGranularity = global::BarcodeScanner.Resource.Attribute.autoSizeStepGranularity;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoSizeTextType = global::BarcodeScanner.Resource.Attribute.autoSizeTextType;
+			global::ZXing.Net.Mobile.Resource.Attribute.background = global::BarcodeScanner.Resource.Attribute.background;
+			global::ZXing.Net.Mobile.Resource.Attribute.backgroundSplit = global::BarcodeScanner.Resource.Attribute.backgroundSplit;
+			global::ZXing.Net.Mobile.Resource.Attribute.backgroundStacked = global::BarcodeScanner.Resource.Attribute.backgroundStacked;
+			global::ZXing.Net.Mobile.Resource.Attribute.backgroundTint = global::BarcodeScanner.Resource.Attribute.backgroundTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.backgroundTintMode = global::BarcodeScanner.Resource.Attribute.backgroundTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.barLength = global::BarcodeScanner.Resource.Attribute.barLength;
+			global::ZXing.Net.Mobile.Resource.Attribute.borderlessButtonStyle = global::BarcodeScanner.Resource.Attribute.borderlessButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonBarButtonStyle = global::BarcodeScanner.Resource.Attribute.buttonBarButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonBarNegativeButtonStyle = global::BarcodeScanner.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonBarNeutralButtonStyle = global::BarcodeScanner.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonBarPositiveButtonStyle = global::BarcodeScanner.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonBarStyle = global::BarcodeScanner.Resource.Attribute.buttonBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonCompat = global::BarcodeScanner.Resource.Attribute.buttonCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonGravity = global::BarcodeScanner.Resource.Attribute.buttonGravity;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonIconDimen = global::BarcodeScanner.Resource.Attribute.buttonIconDimen;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonPanelSideLayout = global::BarcodeScanner.Resource.Attribute.buttonPanelSideLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonStyle = global::BarcodeScanner.Resource.Attribute.buttonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonStyleSmall = global::BarcodeScanner.Resource.Attribute.buttonStyleSmall;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonTint = global::BarcodeScanner.Resource.Attribute.buttonTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonTintMode = global::BarcodeScanner.Resource.Attribute.buttonTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.checkboxStyle = global::BarcodeScanner.Resource.Attribute.checkboxStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.checkedTextViewStyle = global::BarcodeScanner.Resource.Attribute.checkedTextViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.closeIcon = global::BarcodeScanner.Resource.Attribute.closeIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.closeItemLayout = global::BarcodeScanner.Resource.Attribute.closeItemLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.collapseContentDescription = global::BarcodeScanner.Resource.Attribute.collapseContentDescription;
+			global::ZXing.Net.Mobile.Resource.Attribute.collapseIcon = global::BarcodeScanner.Resource.Attribute.collapseIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.color = global::BarcodeScanner.Resource.Attribute.color;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorAccent = global::BarcodeScanner.Resource.Attribute.colorAccent;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorBackgroundFloating = global::BarcodeScanner.Resource.Attribute.colorBackgroundFloating;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorButtonNormal = global::BarcodeScanner.Resource.Attribute.colorButtonNormal;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorControlActivated = global::BarcodeScanner.Resource.Attribute.colorControlActivated;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorControlHighlight = global::BarcodeScanner.Resource.Attribute.colorControlHighlight;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorControlNormal = global::BarcodeScanner.Resource.Attribute.colorControlNormal;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorError = global::BarcodeScanner.Resource.Attribute.colorError;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorPrimary = global::BarcodeScanner.Resource.Attribute.colorPrimary;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorPrimaryDark = global::BarcodeScanner.Resource.Attribute.colorPrimaryDark;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorSwitchThumbNormal = global::BarcodeScanner.Resource.Attribute.colorSwitchThumbNormal;
+			global::ZXing.Net.Mobile.Resource.Attribute.commitIcon = global::BarcodeScanner.Resource.Attribute.commitIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentDescription = global::BarcodeScanner.Resource.Attribute.contentDescription;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetEnd = global::BarcodeScanner.Resource.Attribute.contentInsetEnd;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetEndWithActions = global::BarcodeScanner.Resource.Attribute.contentInsetEndWithActions;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetLeft = global::BarcodeScanner.Resource.Attribute.contentInsetLeft;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetRight = global::BarcodeScanner.Resource.Attribute.contentInsetRight;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetStart = global::BarcodeScanner.Resource.Attribute.contentInsetStart;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetStartWithNavigation = global::BarcodeScanner.Resource.Attribute.contentInsetStartWithNavigation;
+			global::ZXing.Net.Mobile.Resource.Attribute.controlBackground = global::BarcodeScanner.Resource.Attribute.controlBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.coordinatorLayoutStyle = global::BarcodeScanner.Resource.Attribute.coordinatorLayoutStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.customNavigationLayout = global::BarcodeScanner.Resource.Attribute.customNavigationLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.defaultQueryHint = global::BarcodeScanner.Resource.Attribute.defaultQueryHint;
+			global::ZXing.Net.Mobile.Resource.Attribute.dialogCornerRadius = global::BarcodeScanner.Resource.Attribute.dialogCornerRadius;
+			global::ZXing.Net.Mobile.Resource.Attribute.dialogPreferredPadding = global::BarcodeScanner.Resource.Attribute.dialogPreferredPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.dialogTheme = global::BarcodeScanner.Resource.Attribute.dialogTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.displayOptions = global::BarcodeScanner.Resource.Attribute.displayOptions;
+			global::ZXing.Net.Mobile.Resource.Attribute.divider = global::BarcodeScanner.Resource.Attribute.divider;
+			global::ZXing.Net.Mobile.Resource.Attribute.dividerHorizontal = global::BarcodeScanner.Resource.Attribute.dividerHorizontal;
+			global::ZXing.Net.Mobile.Resource.Attribute.dividerPadding = global::BarcodeScanner.Resource.Attribute.dividerPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.dividerVertical = global::BarcodeScanner.Resource.Attribute.dividerVertical;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableBottomCompat = global::BarcodeScanner.Resource.Attribute.drawableBottomCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableEndCompat = global::BarcodeScanner.Resource.Attribute.drawableEndCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableLeftCompat = global::BarcodeScanner.Resource.Attribute.drawableLeftCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableRightCompat = global::BarcodeScanner.Resource.Attribute.drawableRightCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableSize = global::BarcodeScanner.Resource.Attribute.drawableSize;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableStartCompat = global::BarcodeScanner.Resource.Attribute.drawableStartCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableTint = global::BarcodeScanner.Resource.Attribute.drawableTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableTintMode = global::BarcodeScanner.Resource.Attribute.drawableTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableTopCompat = global::BarcodeScanner.Resource.Attribute.drawableTopCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawerArrowStyle = global::BarcodeScanner.Resource.Attribute.drawerArrowStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.dropdownListPreferredItemHeight = global::BarcodeScanner.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.dropDownListViewStyle = global::BarcodeScanner.Resource.Attribute.dropDownListViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.editTextBackground = global::BarcodeScanner.Resource.Attribute.editTextBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.editTextColor = global::BarcodeScanner.Resource.Attribute.editTextColor;
+			global::ZXing.Net.Mobile.Resource.Attribute.editTextStyle = global::BarcodeScanner.Resource.Attribute.editTextStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.elevation = global::BarcodeScanner.Resource.Attribute.elevation;
+			global::ZXing.Net.Mobile.Resource.Attribute.expandActivityOverflowButtonDrawable = global::BarcodeScanner.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.firstBaselineToTopHeight = global::BarcodeScanner.Resource.Attribute.firstBaselineToTopHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.font = global::BarcodeScanner.Resource.Attribute.font;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontFamily = global::BarcodeScanner.Resource.Attribute.fontFamily;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderAuthority = global::BarcodeScanner.Resource.Attribute.fontProviderAuthority;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderCerts = global::BarcodeScanner.Resource.Attribute.fontProviderCerts;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderFetchStrategy = global::BarcodeScanner.Resource.Attribute.fontProviderFetchStrategy;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderFetchTimeout = global::BarcodeScanner.Resource.Attribute.fontProviderFetchTimeout;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderPackage = global::BarcodeScanner.Resource.Attribute.fontProviderPackage;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderQuery = global::BarcodeScanner.Resource.Attribute.fontProviderQuery;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontStyle = global::BarcodeScanner.Resource.Attribute.fontStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontVariationSettings = global::BarcodeScanner.Resource.Attribute.fontVariationSettings;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontWeight = global::BarcodeScanner.Resource.Attribute.fontWeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.gapBetweenBars = global::BarcodeScanner.Resource.Attribute.gapBetweenBars;
+			global::ZXing.Net.Mobile.Resource.Attribute.goIcon = global::BarcodeScanner.Resource.Attribute.goIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.height = global::BarcodeScanner.Resource.Attribute.height;
+			global::ZXing.Net.Mobile.Resource.Attribute.hideOnContentScroll = global::BarcodeScanner.Resource.Attribute.hideOnContentScroll;
+			global::ZXing.Net.Mobile.Resource.Attribute.homeAsUpIndicator = global::BarcodeScanner.Resource.Attribute.homeAsUpIndicator;
+			global::ZXing.Net.Mobile.Resource.Attribute.homeLayout = global::BarcodeScanner.Resource.Attribute.homeLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.icon = global::BarcodeScanner.Resource.Attribute.icon;
+			global::ZXing.Net.Mobile.Resource.Attribute.iconifiedByDefault = global::BarcodeScanner.Resource.Attribute.iconifiedByDefault;
+			global::ZXing.Net.Mobile.Resource.Attribute.iconTint = global::BarcodeScanner.Resource.Attribute.iconTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.iconTintMode = global::BarcodeScanner.Resource.Attribute.iconTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.imageButtonStyle = global::BarcodeScanner.Resource.Attribute.imageButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.indeterminateProgressStyle = global::BarcodeScanner.Resource.Attribute.indeterminateProgressStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.initialActivityCount = global::BarcodeScanner.Resource.Attribute.initialActivityCount;
+			global::ZXing.Net.Mobile.Resource.Attribute.isLightTheme = global::BarcodeScanner.Resource.Attribute.isLightTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.itemPadding = global::BarcodeScanner.Resource.Attribute.itemPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.keylines = global::BarcodeScanner.Resource.Attribute.keylines;
+			global::ZXing.Net.Mobile.Resource.Attribute.lastBaselineToBottomHeight = global::BarcodeScanner.Resource.Attribute.lastBaselineToBottomHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout = global::BarcodeScanner.Resource.Attribute.layout;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_anchor = global::BarcodeScanner.Resource.Attribute.layout_anchor;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_anchorGravity = global::BarcodeScanner.Resource.Attribute.layout_anchorGravity;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_behavior = global::BarcodeScanner.Resource.Attribute.layout_behavior;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_dodgeInsetEdges = global::BarcodeScanner.Resource.Attribute.layout_dodgeInsetEdges;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_insetEdge = global::BarcodeScanner.Resource.Attribute.layout_insetEdge;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_keyline = global::BarcodeScanner.Resource.Attribute.layout_keyline;
+			global::ZXing.Net.Mobile.Resource.Attribute.lineHeight = global::BarcodeScanner.Resource.Attribute.lineHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.listChoiceBackgroundIndicator = global::BarcodeScanner.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::ZXing.Net.Mobile.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::BarcodeScanner.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::ZXing.Net.Mobile.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::BarcodeScanner.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::ZXing.Net.Mobile.Resource.Attribute.listDividerAlertDialog = global::BarcodeScanner.Resource.Attribute.listDividerAlertDialog;
+			global::ZXing.Net.Mobile.Resource.Attribute.listItemLayout = global::BarcodeScanner.Resource.Attribute.listItemLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.listLayout = global::BarcodeScanner.Resource.Attribute.listLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.listMenuViewStyle = global::BarcodeScanner.Resource.Attribute.listMenuViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPopupWindowStyle = global::BarcodeScanner.Resource.Attribute.listPopupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemHeight = global::BarcodeScanner.Resource.Attribute.listPreferredItemHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemHeightLarge = global::BarcodeScanner.Resource.Attribute.listPreferredItemHeightLarge;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemHeightSmall = global::BarcodeScanner.Resource.Attribute.listPreferredItemHeightSmall;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemPaddingEnd = global::BarcodeScanner.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemPaddingLeft = global::BarcodeScanner.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemPaddingRight = global::BarcodeScanner.Resource.Attribute.listPreferredItemPaddingRight;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemPaddingStart = global::BarcodeScanner.Resource.Attribute.listPreferredItemPaddingStart;
+			global::ZXing.Net.Mobile.Resource.Attribute.logo = global::BarcodeScanner.Resource.Attribute.logo;
+			global::ZXing.Net.Mobile.Resource.Attribute.logoDescription = global::BarcodeScanner.Resource.Attribute.logoDescription;
+			global::ZXing.Net.Mobile.Resource.Attribute.maxButtonHeight = global::BarcodeScanner.Resource.Attribute.maxButtonHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.measureWithLargestChild = global::BarcodeScanner.Resource.Attribute.measureWithLargestChild;
+			global::ZXing.Net.Mobile.Resource.Attribute.menu = global::BarcodeScanner.Resource.Attribute.menu;
+			global::ZXing.Net.Mobile.Resource.Attribute.multiChoiceItemLayout = global::BarcodeScanner.Resource.Attribute.multiChoiceItemLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.navigationContentDescription = global::BarcodeScanner.Resource.Attribute.navigationContentDescription;
+			global::ZXing.Net.Mobile.Resource.Attribute.navigationIcon = global::BarcodeScanner.Resource.Attribute.navigationIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.navigationMode = global::BarcodeScanner.Resource.Attribute.navigationMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.numericModifiers = global::BarcodeScanner.Resource.Attribute.numericModifiers;
+			global::ZXing.Net.Mobile.Resource.Attribute.overlapAnchor = global::BarcodeScanner.Resource.Attribute.overlapAnchor;
+			global::ZXing.Net.Mobile.Resource.Attribute.paddingBottomNoButtons = global::BarcodeScanner.Resource.Attribute.paddingBottomNoButtons;
+			global::ZXing.Net.Mobile.Resource.Attribute.paddingEnd = global::BarcodeScanner.Resource.Attribute.paddingEnd;
+			global::ZXing.Net.Mobile.Resource.Attribute.paddingStart = global::BarcodeScanner.Resource.Attribute.paddingStart;
+			global::ZXing.Net.Mobile.Resource.Attribute.paddingTopNoTitle = global::BarcodeScanner.Resource.Attribute.paddingTopNoTitle;
+			global::ZXing.Net.Mobile.Resource.Attribute.panelBackground = global::BarcodeScanner.Resource.Attribute.panelBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.panelMenuListTheme = global::BarcodeScanner.Resource.Attribute.panelMenuListTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.panelMenuListWidth = global::BarcodeScanner.Resource.Attribute.panelMenuListWidth;
+			global::ZXing.Net.Mobile.Resource.Attribute.popupMenuStyle = global::BarcodeScanner.Resource.Attribute.popupMenuStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.popupTheme = global::BarcodeScanner.Resource.Attribute.popupTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.popupWindowStyle = global::BarcodeScanner.Resource.Attribute.popupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.preserveIconSpacing = global::BarcodeScanner.Resource.Attribute.preserveIconSpacing;
+			global::ZXing.Net.Mobile.Resource.Attribute.progressBarPadding = global::BarcodeScanner.Resource.Attribute.progressBarPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.progressBarStyle = global::BarcodeScanner.Resource.Attribute.progressBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.queryBackground = global::BarcodeScanner.Resource.Attribute.queryBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.queryHint = global::BarcodeScanner.Resource.Attribute.queryHint;
+			global::ZXing.Net.Mobile.Resource.Attribute.radioButtonStyle = global::BarcodeScanner.Resource.Attribute.radioButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.ratingBarStyle = global::BarcodeScanner.Resource.Attribute.ratingBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.ratingBarStyleIndicator = global::BarcodeScanner.Resource.Attribute.ratingBarStyleIndicator;
+			global::ZXing.Net.Mobile.Resource.Attribute.ratingBarStyleSmall = global::BarcodeScanner.Resource.Attribute.ratingBarStyleSmall;
+			global::ZXing.Net.Mobile.Resource.Attribute.searchHintIcon = global::BarcodeScanner.Resource.Attribute.searchHintIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.searchIcon = global::BarcodeScanner.Resource.Attribute.searchIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.searchViewStyle = global::BarcodeScanner.Resource.Attribute.searchViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.seekBarStyle = global::BarcodeScanner.Resource.Attribute.seekBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.selectableItemBackground = global::BarcodeScanner.Resource.Attribute.selectableItemBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.selectableItemBackgroundBorderless = global::BarcodeScanner.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::ZXing.Net.Mobile.Resource.Attribute.showAsAction = global::BarcodeScanner.Resource.Attribute.showAsAction;
+			global::ZXing.Net.Mobile.Resource.Attribute.showDividers = global::BarcodeScanner.Resource.Attribute.showDividers;
+			global::ZXing.Net.Mobile.Resource.Attribute.showText = global::BarcodeScanner.Resource.Attribute.showText;
+			global::ZXing.Net.Mobile.Resource.Attribute.showTitle = global::BarcodeScanner.Resource.Attribute.showTitle;
+			global::ZXing.Net.Mobile.Resource.Attribute.singleChoiceItemLayout = global::BarcodeScanner.Resource.Attribute.singleChoiceItemLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.spinBars = global::BarcodeScanner.Resource.Attribute.spinBars;
+			global::ZXing.Net.Mobile.Resource.Attribute.spinnerDropDownItemStyle = global::BarcodeScanner.Resource.Attribute.spinnerDropDownItemStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.spinnerStyle = global::BarcodeScanner.Resource.Attribute.spinnerStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.splitTrack = global::BarcodeScanner.Resource.Attribute.splitTrack;
+			global::ZXing.Net.Mobile.Resource.Attribute.srcCompat = global::BarcodeScanner.Resource.Attribute.srcCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.state_above_anchor = global::BarcodeScanner.Resource.Attribute.state_above_anchor;
+			global::ZXing.Net.Mobile.Resource.Attribute.statusBarBackground = global::BarcodeScanner.Resource.Attribute.statusBarBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.subMenuArrow = global::BarcodeScanner.Resource.Attribute.subMenuArrow;
+			global::ZXing.Net.Mobile.Resource.Attribute.submitBackground = global::BarcodeScanner.Resource.Attribute.submitBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.subtitle = global::BarcodeScanner.Resource.Attribute.subtitle;
+			global::ZXing.Net.Mobile.Resource.Attribute.subtitleTextAppearance = global::BarcodeScanner.Resource.Attribute.subtitleTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Attribute.subtitleTextColor = global::BarcodeScanner.Resource.Attribute.subtitleTextColor;
+			global::ZXing.Net.Mobile.Resource.Attribute.subtitleTextStyle = global::BarcodeScanner.Resource.Attribute.subtitleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.suggestionRowLayout = global::BarcodeScanner.Resource.Attribute.suggestionRowLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.switchMinWidth = global::BarcodeScanner.Resource.Attribute.switchMinWidth;
+			global::ZXing.Net.Mobile.Resource.Attribute.switchPadding = global::BarcodeScanner.Resource.Attribute.switchPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.switchStyle = global::BarcodeScanner.Resource.Attribute.switchStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.switchTextAppearance = global::BarcodeScanner.Resource.Attribute.switchTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAllCaps = global::BarcodeScanner.Resource.Attribute.textAllCaps;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceLargePopupMenu = global::BarcodeScanner.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceListItem = global::BarcodeScanner.Resource.Attribute.textAppearanceListItem;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceListItemSecondary = global::BarcodeScanner.Resource.Attribute.textAppearanceListItemSecondary;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceListItemSmall = global::BarcodeScanner.Resource.Attribute.textAppearanceListItemSmall;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearancePopupMenuHeader = global::BarcodeScanner.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceSearchResultSubtitle = global::BarcodeScanner.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceSearchResultTitle = global::BarcodeScanner.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceSmallPopupMenu = global::BarcodeScanner.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::ZXing.Net.Mobile.Resource.Attribute.textColorAlertDialogListItem = global::BarcodeScanner.Resource.Attribute.textColorAlertDialogListItem;
+			global::ZXing.Net.Mobile.Resource.Attribute.textColorSearchUrl = global::BarcodeScanner.Resource.Attribute.textColorSearchUrl;
+			global::ZXing.Net.Mobile.Resource.Attribute.textLocale = global::BarcodeScanner.Resource.Attribute.textLocale;
+			global::ZXing.Net.Mobile.Resource.Attribute.theme = global::BarcodeScanner.Resource.Attribute.theme;
+			global::ZXing.Net.Mobile.Resource.Attribute.thickness = global::BarcodeScanner.Resource.Attribute.thickness;
+			global::ZXing.Net.Mobile.Resource.Attribute.thumbTextPadding = global::BarcodeScanner.Resource.Attribute.thumbTextPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.thumbTint = global::BarcodeScanner.Resource.Attribute.thumbTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.thumbTintMode = global::BarcodeScanner.Resource.Attribute.thumbTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.tickMark = global::BarcodeScanner.Resource.Attribute.tickMark;
+			global::ZXing.Net.Mobile.Resource.Attribute.tickMarkTint = global::BarcodeScanner.Resource.Attribute.tickMarkTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.tickMarkTintMode = global::BarcodeScanner.Resource.Attribute.tickMarkTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.tint = global::BarcodeScanner.Resource.Attribute.tint;
+			global::ZXing.Net.Mobile.Resource.Attribute.tintMode = global::BarcodeScanner.Resource.Attribute.tintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.title = global::BarcodeScanner.Resource.Attribute.title;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMargin = global::BarcodeScanner.Resource.Attribute.titleMargin;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMarginBottom = global::BarcodeScanner.Resource.Attribute.titleMarginBottom;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMarginEnd = global::BarcodeScanner.Resource.Attribute.titleMarginEnd;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMargins = global::BarcodeScanner.Resource.Attribute.titleMargins;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMarginStart = global::BarcodeScanner.Resource.Attribute.titleMarginStart;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMarginTop = global::BarcodeScanner.Resource.Attribute.titleMarginTop;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleTextAppearance = global::BarcodeScanner.Resource.Attribute.titleTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleTextColor = global::BarcodeScanner.Resource.Attribute.titleTextColor;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleTextStyle = global::BarcodeScanner.Resource.Attribute.titleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.toolbarNavigationButtonStyle = global::BarcodeScanner.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.toolbarStyle = global::BarcodeScanner.Resource.Attribute.toolbarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.tooltipForegroundColor = global::BarcodeScanner.Resource.Attribute.tooltipForegroundColor;
+			global::ZXing.Net.Mobile.Resource.Attribute.tooltipFrameBackground = global::BarcodeScanner.Resource.Attribute.tooltipFrameBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.tooltipText = global::BarcodeScanner.Resource.Attribute.tooltipText;
+			global::ZXing.Net.Mobile.Resource.Attribute.track = global::BarcodeScanner.Resource.Attribute.track;
+			global::ZXing.Net.Mobile.Resource.Attribute.trackTint = global::BarcodeScanner.Resource.Attribute.trackTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.trackTintMode = global::BarcodeScanner.Resource.Attribute.trackTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.ttcIndex = global::BarcodeScanner.Resource.Attribute.ttcIndex;
+			global::ZXing.Net.Mobile.Resource.Attribute.viewInflaterClass = global::BarcodeScanner.Resource.Attribute.viewInflaterClass;
+			global::ZXing.Net.Mobile.Resource.Attribute.voiceIcon = global::BarcodeScanner.Resource.Attribute.voiceIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowActionBar = global::BarcodeScanner.Resource.Attribute.windowActionBar;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowActionBarOverlay = global::BarcodeScanner.Resource.Attribute.windowActionBarOverlay;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowActionModeOverlay = global::BarcodeScanner.Resource.Attribute.windowActionModeOverlay;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowFixedHeightMajor = global::BarcodeScanner.Resource.Attribute.windowFixedHeightMajor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowFixedHeightMinor = global::BarcodeScanner.Resource.Attribute.windowFixedHeightMinor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowFixedWidthMajor = global::BarcodeScanner.Resource.Attribute.windowFixedWidthMajor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowFixedWidthMinor = global::BarcodeScanner.Resource.Attribute.windowFixedWidthMinor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowMinWidthMajor = global::BarcodeScanner.Resource.Attribute.windowMinWidthMajor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowMinWidthMinor = global::BarcodeScanner.Resource.Attribute.windowMinWidthMinor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowNoTitle = global::BarcodeScanner.Resource.Attribute.windowNoTitle;
+			global::ZXing.Net.Mobile.Resource.Boolean.abc_action_bar_embed_tabs = global::BarcodeScanner.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::ZXing.Net.Mobile.Resource.Boolean.abc_allow_stacked_button_bar = global::BarcodeScanner.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::ZXing.Net.Mobile.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::BarcodeScanner.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::ZXing.Net.Mobile.Resource.Color.abc_background_cache_hint_selector_material_dark = global::BarcodeScanner.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.abc_background_cache_hint_selector_material_light = global::BarcodeScanner.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.abc_btn_colored_borderless_text_material = global::BarcodeScanner.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::ZXing.Net.Mobile.Resource.Color.abc_btn_colored_text_material = global::BarcodeScanner.Resource.Color.abc_btn_colored_text_material;
+			global::ZXing.Net.Mobile.Resource.Color.abc_color_highlight_material = global::BarcodeScanner.Resource.Color.abc_color_highlight_material;
+			global::ZXing.Net.Mobile.Resource.Color.abc_hint_foreground_material_dark = global::BarcodeScanner.Resource.Color.abc_hint_foreground_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.abc_hint_foreground_material_light = global::BarcodeScanner.Resource.Color.abc_hint_foreground_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.abc_primary_text_disable_only_material_dark = global::BarcodeScanner.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.abc_primary_text_disable_only_material_light = global::BarcodeScanner.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.abc_primary_text_material_dark = global::BarcodeScanner.Resource.Color.abc_primary_text_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.abc_primary_text_material_light = global::BarcodeScanner.Resource.Color.abc_primary_text_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.abc_search_url_text = global::BarcodeScanner.Resource.Color.abc_search_url_text;
+			global::ZXing.Net.Mobile.Resource.Color.abc_search_url_text_normal = global::BarcodeScanner.Resource.Color.abc_search_url_text_normal;
+			global::ZXing.Net.Mobile.Resource.Color.abc_search_url_text_pressed = global::BarcodeScanner.Resource.Color.abc_search_url_text_pressed;
+			global::ZXing.Net.Mobile.Resource.Color.abc_search_url_text_selected = global::BarcodeScanner.Resource.Color.abc_search_url_text_selected;
+			global::ZXing.Net.Mobile.Resource.Color.abc_secondary_text_material_dark = global::BarcodeScanner.Resource.Color.abc_secondary_text_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.abc_secondary_text_material_light = global::BarcodeScanner.Resource.Color.abc_secondary_text_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_btn_checkable = global::BarcodeScanner.Resource.Color.abc_tint_btn_checkable;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_default = global::BarcodeScanner.Resource.Color.abc_tint_default;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_edittext = global::BarcodeScanner.Resource.Color.abc_tint_edittext;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_seek_thumb = global::BarcodeScanner.Resource.Color.abc_tint_seek_thumb;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_spinner = global::BarcodeScanner.Resource.Color.abc_tint_spinner;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_switch_track = global::BarcodeScanner.Resource.Color.abc_tint_switch_track;
+			global::ZXing.Net.Mobile.Resource.Color.accent_material_dark = global::BarcodeScanner.Resource.Color.accent_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.accent_material_light = global::BarcodeScanner.Resource.Color.accent_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.background_floating_material_dark = global::BarcodeScanner.Resource.Color.background_floating_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.background_floating_material_light = global::BarcodeScanner.Resource.Color.background_floating_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.background_material_dark = global::BarcodeScanner.Resource.Color.background_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.background_material_light = global::BarcodeScanner.Resource.Color.background_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_disabled_material_dark = global::BarcodeScanner.Resource.Color.bright_foreground_disabled_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_disabled_material_light = global::BarcodeScanner.Resource.Color.bright_foreground_disabled_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_inverse_material_dark = global::BarcodeScanner.Resource.Color.bright_foreground_inverse_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_inverse_material_light = global::BarcodeScanner.Resource.Color.bright_foreground_inverse_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_material_dark = global::BarcodeScanner.Resource.Color.bright_foreground_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_material_light = global::BarcodeScanner.Resource.Color.bright_foreground_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.browser_actions_bg_grey = global::BarcodeScanner.Resource.Color.browser_actions_bg_grey;
+			global::ZXing.Net.Mobile.Resource.Color.browser_actions_divider_color = global::BarcodeScanner.Resource.Color.browser_actions_divider_color;
+			global::ZXing.Net.Mobile.Resource.Color.browser_actions_text_color = global::BarcodeScanner.Resource.Color.browser_actions_text_color;
+			global::ZXing.Net.Mobile.Resource.Color.browser_actions_title_color = global::BarcodeScanner.Resource.Color.browser_actions_title_color;
+			global::ZXing.Net.Mobile.Resource.Color.button_material_dark = global::BarcodeScanner.Resource.Color.button_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.button_material_light = global::BarcodeScanner.Resource.Color.button_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.dim_foreground_disabled_material_dark = global::BarcodeScanner.Resource.Color.dim_foreground_disabled_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.dim_foreground_disabled_material_light = global::BarcodeScanner.Resource.Color.dim_foreground_disabled_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.dim_foreground_material_dark = global::BarcodeScanner.Resource.Color.dim_foreground_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.dim_foreground_material_light = global::BarcodeScanner.Resource.Color.dim_foreground_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.error_color_material_dark = global::BarcodeScanner.Resource.Color.error_color_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.error_color_material_light = global::BarcodeScanner.Resource.Color.error_color_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.foreground_material_dark = global::BarcodeScanner.Resource.Color.foreground_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.foreground_material_light = global::BarcodeScanner.Resource.Color.foreground_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.highlighted_text_material_dark = global::BarcodeScanner.Resource.Color.highlighted_text_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.highlighted_text_material_light = global::BarcodeScanner.Resource.Color.highlighted_text_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.material_blue_grey_800 = global::BarcodeScanner.Resource.Color.material_blue_grey_800;
+			global::ZXing.Net.Mobile.Resource.Color.material_blue_grey_900 = global::BarcodeScanner.Resource.Color.material_blue_grey_900;
+			global::ZXing.Net.Mobile.Resource.Color.material_blue_grey_950 = global::BarcodeScanner.Resource.Color.material_blue_grey_950;
+			global::ZXing.Net.Mobile.Resource.Color.material_deep_teal_200 = global::BarcodeScanner.Resource.Color.material_deep_teal_200;
+			global::ZXing.Net.Mobile.Resource.Color.material_deep_teal_500 = global::BarcodeScanner.Resource.Color.material_deep_teal_500;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_100 = global::BarcodeScanner.Resource.Color.material_grey_100;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_300 = global::BarcodeScanner.Resource.Color.material_grey_300;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_50 = global::BarcodeScanner.Resource.Color.material_grey_50;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_600 = global::BarcodeScanner.Resource.Color.material_grey_600;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_800 = global::BarcodeScanner.Resource.Color.material_grey_800;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_850 = global::BarcodeScanner.Resource.Color.material_grey_850;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_900 = global::BarcodeScanner.Resource.Color.material_grey_900;
+			global::ZXing.Net.Mobile.Resource.Color.notification_action_color_filter = global::BarcodeScanner.Resource.Color.notification_action_color_filter;
+			global::ZXing.Net.Mobile.Resource.Color.notification_icon_bg_color = global::BarcodeScanner.Resource.Color.notification_icon_bg_color;
+			global::ZXing.Net.Mobile.Resource.Color.primary_dark_material_dark = global::BarcodeScanner.Resource.Color.primary_dark_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.primary_dark_material_light = global::BarcodeScanner.Resource.Color.primary_dark_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.primary_material_dark = global::BarcodeScanner.Resource.Color.primary_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.primary_material_light = global::BarcodeScanner.Resource.Color.primary_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.primary_text_default_material_dark = global::BarcodeScanner.Resource.Color.primary_text_default_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.primary_text_default_material_light = global::BarcodeScanner.Resource.Color.primary_text_default_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.primary_text_disabled_material_dark = global::BarcodeScanner.Resource.Color.primary_text_disabled_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.primary_text_disabled_material_light = global::BarcodeScanner.Resource.Color.primary_text_disabled_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.ripple_material_dark = global::BarcodeScanner.Resource.Color.ripple_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.ripple_material_light = global::BarcodeScanner.Resource.Color.ripple_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.secondary_text_default_material_dark = global::BarcodeScanner.Resource.Color.secondary_text_default_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.secondary_text_default_material_light = global::BarcodeScanner.Resource.Color.secondary_text_default_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.secondary_text_disabled_material_dark = global::BarcodeScanner.Resource.Color.secondary_text_disabled_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.secondary_text_disabled_material_light = global::BarcodeScanner.Resource.Color.secondary_text_disabled_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_disabled_material_dark = global::BarcodeScanner.Resource.Color.switch_thumb_disabled_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_disabled_material_light = global::BarcodeScanner.Resource.Color.switch_thumb_disabled_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_material_dark = global::BarcodeScanner.Resource.Color.switch_thumb_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_material_light = global::BarcodeScanner.Resource.Color.switch_thumb_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_normal_material_dark = global::BarcodeScanner.Resource.Color.switch_thumb_normal_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_normal_material_light = global::BarcodeScanner.Resource.Color.switch_thumb_normal_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.tooltip_background_dark = global::BarcodeScanner.Resource.Color.tooltip_background_dark;
+			global::ZXing.Net.Mobile.Resource.Color.tooltip_background_light = global::BarcodeScanner.Resource.Color.tooltip_background_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_content_inset_material = global::BarcodeScanner.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::BarcodeScanner.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_default_height_material = global::BarcodeScanner.Resource.Dimension.abc_action_bar_default_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_default_padding_end_material = global::BarcodeScanner.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_default_padding_start_material = global::BarcodeScanner.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_elevation_material = global::BarcodeScanner.Resource.Dimension.abc_action_bar_elevation_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::BarcodeScanner.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::BarcodeScanner.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::BarcodeScanner.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_stacked_max_height = global::BarcodeScanner.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::BarcodeScanner.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::BarcodeScanner.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::BarcodeScanner.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_button_min_height_material = global::BarcodeScanner.Resource.Dimension.abc_action_button_min_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_button_min_width_material = global::BarcodeScanner.Resource.Dimension.abc_action_button_min_width_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_button_min_width_overflow_material = global::BarcodeScanner.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_alert_dialog_button_bar_height = global::BarcodeScanner.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_alert_dialog_button_dimen = global::BarcodeScanner.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_button_inset_horizontal_material = global::BarcodeScanner.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_button_inset_vertical_material = global::BarcodeScanner.Resource.Dimension.abc_button_inset_vertical_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_button_padding_horizontal_material = global::BarcodeScanner.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_button_padding_vertical_material = global::BarcodeScanner.Resource.Dimension.abc_button_padding_vertical_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::BarcodeScanner.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_config_prefDialogWidth = global::BarcodeScanner.Resource.Dimension.abc_config_prefDialogWidth;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_control_corner_material = global::BarcodeScanner.Resource.Dimension.abc_control_corner_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_control_inset_material = global::BarcodeScanner.Resource.Dimension.abc_control_inset_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_control_padding_material = global::BarcodeScanner.Resource.Dimension.abc_control_padding_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_corner_radius_material = global::BarcodeScanner.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_fixed_height_major = global::BarcodeScanner.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_fixed_height_minor = global::BarcodeScanner.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_fixed_width_major = global::BarcodeScanner.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_fixed_width_minor = global::BarcodeScanner.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::BarcodeScanner.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::BarcodeScanner.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_min_width_major = global::BarcodeScanner.Resource.Dimension.abc_dialog_min_width_major;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_min_width_minor = global::BarcodeScanner.Resource.Dimension.abc_dialog_min_width_minor;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_padding_material = global::BarcodeScanner.Resource.Dimension.abc_dialog_padding_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_padding_top_material = global::BarcodeScanner.Resource.Dimension.abc_dialog_padding_top_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_title_divider_material = global::BarcodeScanner.Resource.Dimension.abc_dialog_title_divider_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_disabled_alpha_material_dark = global::BarcodeScanner.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_disabled_alpha_material_light = global::BarcodeScanner.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dropdownitem_icon_width = global::BarcodeScanner.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dropdownitem_text_padding_left = global::BarcodeScanner.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dropdownitem_text_padding_right = global::BarcodeScanner.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_edit_text_inset_bottom_material = global::BarcodeScanner.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::BarcodeScanner.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_edit_text_inset_top_material = global::BarcodeScanner.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_floating_window_z = global::BarcodeScanner.Resource.Dimension.abc_floating_window_z;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_list_item_height_large_material = global::BarcodeScanner.Resource.Dimension.abc_list_item_height_large_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_list_item_height_material = global::BarcodeScanner.Resource.Dimension.abc_list_item_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_list_item_height_small_material = global::BarcodeScanner.Resource.Dimension.abc_list_item_height_small_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_list_item_padding_horizontal_material = global::BarcodeScanner.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_panel_menu_list_width = global::BarcodeScanner.Resource.Dimension.abc_panel_menu_list_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_progress_bar_height_material = global::BarcodeScanner.Resource.Dimension.abc_progress_bar_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_search_view_preferred_height = global::BarcodeScanner.Resource.Dimension.abc_search_view_preferred_height;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_search_view_preferred_width = global::BarcodeScanner.Resource.Dimension.abc_search_view_preferred_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_seekbar_track_background_height_material = global::BarcodeScanner.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_seekbar_track_progress_height_material = global::BarcodeScanner.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_select_dialog_padding_start_material = global::BarcodeScanner.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_switch_padding = global::BarcodeScanner.Resource.Dimension.abc_switch_padding;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_body_1_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_body_1_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_body_2_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_body_2_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_button_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_button_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_caption_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_caption_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_display_1_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_display_1_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_display_2_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_display_2_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_display_3_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_display_3_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_display_4_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_display_4_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_headline_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_headline_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_large_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_large_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_medium_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_medium_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_menu_header_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_menu_header_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_menu_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_menu_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_small_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_small_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_subhead_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_subhead_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::BarcodeScanner.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_title_material = global::BarcodeScanner.Resource.Dimension.abc_text_size_title_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_title_material_toolbar = global::BarcodeScanner.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::ZXing.Net.Mobile.Resource.Dimension.browser_actions_context_menu_max_width = global::BarcodeScanner.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.browser_actions_context_menu_min_padding = global::BarcodeScanner.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_button_inset_horizontal_material = global::BarcodeScanner.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_button_inset_vertical_material = global::BarcodeScanner.Resource.Dimension.compat_button_inset_vertical_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_button_padding_horizontal_material = global::BarcodeScanner.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_button_padding_vertical_material = global::BarcodeScanner.Resource.Dimension.compat_button_padding_vertical_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_control_corner_material = global::BarcodeScanner.Resource.Dimension.compat_control_corner_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_notification_large_icon_max_height = global::BarcodeScanner.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_notification_large_icon_max_width = global::BarcodeScanner.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.disabled_alpha_material_dark = global::BarcodeScanner.Resource.Dimension.disabled_alpha_material_dark;
+			global::ZXing.Net.Mobile.Resource.Dimension.disabled_alpha_material_light = global::BarcodeScanner.Resource.Dimension.disabled_alpha_material_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.highlight_alpha_material_colored = global::BarcodeScanner.Resource.Dimension.highlight_alpha_material_colored;
+			global::ZXing.Net.Mobile.Resource.Dimension.highlight_alpha_material_dark = global::BarcodeScanner.Resource.Dimension.highlight_alpha_material_dark;
+			global::ZXing.Net.Mobile.Resource.Dimension.highlight_alpha_material_light = global::BarcodeScanner.Resource.Dimension.highlight_alpha_material_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.hint_alpha_material_dark = global::BarcodeScanner.Resource.Dimension.hint_alpha_material_dark;
+			global::ZXing.Net.Mobile.Resource.Dimension.hint_alpha_material_light = global::BarcodeScanner.Resource.Dimension.hint_alpha_material_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.hint_pressed_alpha_material_dark = global::BarcodeScanner.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::ZXing.Net.Mobile.Resource.Dimension.hint_pressed_alpha_material_light = global::BarcodeScanner.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_action_icon_size = global::BarcodeScanner.Resource.Dimension.notification_action_icon_size;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_action_text_size = global::BarcodeScanner.Resource.Dimension.notification_action_text_size;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_big_circle_margin = global::BarcodeScanner.Resource.Dimension.notification_big_circle_margin;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_content_margin_start = global::BarcodeScanner.Resource.Dimension.notification_content_margin_start;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_large_icon_height = global::BarcodeScanner.Resource.Dimension.notification_large_icon_height;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_large_icon_width = global::BarcodeScanner.Resource.Dimension.notification_large_icon_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_main_column_padding_top = global::BarcodeScanner.Resource.Dimension.notification_main_column_padding_top;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_media_narrow_margin = global::BarcodeScanner.Resource.Dimension.notification_media_narrow_margin;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_right_icon_size = global::BarcodeScanner.Resource.Dimension.notification_right_icon_size;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_right_side_padding_top = global::BarcodeScanner.Resource.Dimension.notification_right_side_padding_top;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_small_icon_background_padding = global::BarcodeScanner.Resource.Dimension.notification_small_icon_background_padding;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_small_icon_size_as_large = global::BarcodeScanner.Resource.Dimension.notification_small_icon_size_as_large;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_subtext_size = global::BarcodeScanner.Resource.Dimension.notification_subtext_size;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_top_pad = global::BarcodeScanner.Resource.Dimension.notification_top_pad;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_top_pad_large_text = global::BarcodeScanner.Resource.Dimension.notification_top_pad_large_text;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_corner_radius = global::BarcodeScanner.Resource.Dimension.tooltip_corner_radius;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_horizontal_padding = global::BarcodeScanner.Resource.Dimension.tooltip_horizontal_padding;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_margin = global::BarcodeScanner.Resource.Dimension.tooltip_margin;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::BarcodeScanner.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_precise_anchor_threshold = global::BarcodeScanner.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_vertical_padding = global::BarcodeScanner.Resource.Dimension.tooltip_vertical_padding;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_y_offset_non_touch = global::BarcodeScanner.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_y_offset_touch = global::BarcodeScanner.Resource.Dimension.tooltip_y_offset_touch;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_action_bar_item_background_material = global::BarcodeScanner.Resource.Drawable.abc_action_bar_item_background_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_borderless_material = global::BarcodeScanner.Resource.Drawable.abc_btn_borderless_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_check_material = global::BarcodeScanner.Resource.Drawable.abc_btn_check_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_check_material_anim = global::BarcodeScanner.Resource.Drawable.abc_btn_check_material_anim;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::BarcodeScanner.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::BarcodeScanner.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_colored_material = global::BarcodeScanner.Resource.Drawable.abc_btn_colored_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_default_mtrl_shape = global::BarcodeScanner.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_radio_material = global::BarcodeScanner.Resource.Drawable.abc_btn_radio_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_radio_material_anim = global::BarcodeScanner.Resource.Drawable.abc_btn_radio_material_anim;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::BarcodeScanner.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::BarcodeScanner.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::BarcodeScanner.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::BarcodeScanner.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_cab_background_internal_bg = global::BarcodeScanner.Resource.Drawable.abc_cab_background_internal_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_cab_background_top_material = global::BarcodeScanner.Resource.Drawable.abc_cab_background_top_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_control_background_material = global::BarcodeScanner.Resource.Drawable.abc_control_background_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_dialog_material_background = global::BarcodeScanner.Resource.Drawable.abc_dialog_material_background;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_edit_text_material = global::BarcodeScanner.Resource.Drawable.abc_edit_text_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_ab_back_material = global::BarcodeScanner.Resource.Drawable.abc_ic_ab_back_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::BarcodeScanner.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_clear_material = global::BarcodeScanner.Resource.Drawable.abc_ic_clear_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_go_search_api_material = global::BarcodeScanner.Resource.Drawable.abc_ic_go_search_api_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::BarcodeScanner.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_overflow_material = global::BarcodeScanner.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::BarcodeScanner.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_search_api_material = global::BarcodeScanner.Resource.Drawable.abc_ic_search_api_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_star_black_16dp = global::BarcodeScanner.Resource.Drawable.abc_ic_star_black_16dp;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_star_black_36dp = global::BarcodeScanner.Resource.Drawable.abc_ic_star_black_36dp;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_star_black_48dp = global::BarcodeScanner.Resource.Drawable.abc_ic_star_black_48dp;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_star_half_black_16dp = global::BarcodeScanner.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_star_half_black_36dp = global::BarcodeScanner.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_star_half_black_48dp = global::BarcodeScanner.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_voice_search_api_material = global::BarcodeScanner.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_item_background_holo_dark = global::BarcodeScanner.Resource.Drawable.abc_item_background_holo_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_item_background_holo_light = global::BarcodeScanner.Resource.Drawable.abc_item_background_holo_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_divider_material = global::BarcodeScanner.Resource.Drawable.abc_list_divider_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_divider_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_focused_holo = global::BarcodeScanner.Resource.Drawable.abc_list_focused_holo;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_longpressed_holo = global::BarcodeScanner.Resource.Drawable.abc_list_longpressed_holo;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_pressed_holo_dark = global::BarcodeScanner.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_pressed_holo_light = global::BarcodeScanner.Resource.Drawable.abc_list_pressed_holo_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::BarcodeScanner.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::BarcodeScanner.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::BarcodeScanner.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_disabled_holo_light = global::BarcodeScanner.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_holo_dark = global::BarcodeScanner.Resource.Drawable.abc_list_selector_holo_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_holo_light = global::BarcodeScanner.Resource.Drawable.abc_list_selector_holo_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::BarcodeScanner.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_popup_background_mtrl_mult = global::BarcodeScanner.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ratingbar_indicator_material = global::BarcodeScanner.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ratingbar_material = global::BarcodeScanner.Resource.Drawable.abc_ratingbar_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ratingbar_small_material = global::BarcodeScanner.Resource.Drawable.abc_ratingbar_small_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::BarcodeScanner.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::BarcodeScanner.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_seekbar_thumb_material = global::BarcodeScanner.Resource.Drawable.abc_seekbar_thumb_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_seekbar_tick_mark_material = global::BarcodeScanner.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_seekbar_track_material = global::BarcodeScanner.Resource.Drawable.abc_seekbar_track_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::BarcodeScanner.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_spinner_textfield_background_material = global::BarcodeScanner.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_switch_thumb_material = global::BarcodeScanner.Resource.Drawable.abc_switch_thumb_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_switch_track_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_tab_indicator_material = global::BarcodeScanner.Resource.Drawable.abc_tab_indicator_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::BarcodeScanner.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_textfield_search_material = global::BarcodeScanner.Resource.Drawable.abc_textfield_search_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_text_cursor_material = global::BarcodeScanner.Resource.Drawable.abc_text_cursor_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::BarcodeScanner.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::BarcodeScanner.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::BarcodeScanner.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::BarcodeScanner.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::BarcodeScanner.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::BarcodeScanner.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_vector_test = global::BarcodeScanner.Resource.Drawable.abc_vector_test;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_checkbox_checked_mtrl = global::BarcodeScanner.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::BarcodeScanner.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::BarcodeScanner.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::BarcodeScanner.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_radio_off_mtrl = global::BarcodeScanner.Resource.Drawable.btn_radio_off_mtrl;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::BarcodeScanner.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_radio_on_mtrl = global::BarcodeScanner.Resource.Drawable.btn_radio_on_mtrl;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::BarcodeScanner.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_action_background = global::BarcodeScanner.Resource.Drawable.notification_action_background;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg = global::BarcodeScanner.Resource.Drawable.notification_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg_low = global::BarcodeScanner.Resource.Drawable.notification_bg_low;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg_low_normal = global::BarcodeScanner.Resource.Drawable.notification_bg_low_normal;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg_low_pressed = global::BarcodeScanner.Resource.Drawable.notification_bg_low_pressed;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg_normal = global::BarcodeScanner.Resource.Drawable.notification_bg_normal;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg_normal_pressed = global::BarcodeScanner.Resource.Drawable.notification_bg_normal_pressed;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_icon_background = global::BarcodeScanner.Resource.Drawable.notification_icon_background;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_template_icon_bg = global::BarcodeScanner.Resource.Drawable.notification_template_icon_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_template_icon_low_bg = global::BarcodeScanner.Resource.Drawable.notification_template_icon_low_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_tile_bg = global::BarcodeScanner.Resource.Drawable.notification_tile_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.notify_panel_notification_icon_bg = global::BarcodeScanner.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.tooltip_frame_dark = global::BarcodeScanner.Resource.Drawable.tooltip_frame_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.tooltip_frame_light = global::BarcodeScanner.Resource.Drawable.tooltip_frame_light;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_action_clickable_span = global::BarcodeScanner.Resource.Id.accessibility_action_clickable_span;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_0 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_0;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_1 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_1;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_10 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_10;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_11 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_11;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_12 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_12;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_13 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_13;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_14 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_14;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_15 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_15;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_16 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_16;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_17 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_17;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_18 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_18;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_19 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_19;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_2 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_2;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_20 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_20;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_21 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_21;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_22 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_22;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_23 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_23;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_24 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_24;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_25 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_25;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_26 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_26;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_27 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_27;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_28 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_28;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_29 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_29;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_3 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_3;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_30 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_30;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_31 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_31;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_4 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_4;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_5 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_5;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_6 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_6;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_7 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_7;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_8 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_8;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_9 = global::BarcodeScanner.Resource.Id.accessibility_custom_action_9;
+			global::ZXing.Net.Mobile.Resource.Id.actions = global::BarcodeScanner.Resource.Id.actions;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar = global::BarcodeScanner.Resource.Id.action_bar;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_activity_content = global::BarcodeScanner.Resource.Id.action_bar_activity_content;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_container = global::BarcodeScanner.Resource.Id.action_bar_container;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_root = global::BarcodeScanner.Resource.Id.action_bar_root;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_spinner = global::BarcodeScanner.Resource.Id.action_bar_spinner;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_subtitle = global::BarcodeScanner.Resource.Id.action_bar_subtitle;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_title = global::BarcodeScanner.Resource.Id.action_bar_title;
+			global::ZXing.Net.Mobile.Resource.Id.action_container = global::BarcodeScanner.Resource.Id.action_container;
+			global::ZXing.Net.Mobile.Resource.Id.action_context_bar = global::BarcodeScanner.Resource.Id.action_context_bar;
+			global::ZXing.Net.Mobile.Resource.Id.action_divider = global::BarcodeScanner.Resource.Id.action_divider;
+			global::ZXing.Net.Mobile.Resource.Id.action_image = global::BarcodeScanner.Resource.Id.action_image;
+			global::ZXing.Net.Mobile.Resource.Id.action_menu_divider = global::BarcodeScanner.Resource.Id.action_menu_divider;
+			global::ZXing.Net.Mobile.Resource.Id.action_menu_presenter = global::BarcodeScanner.Resource.Id.action_menu_presenter;
+			global::ZXing.Net.Mobile.Resource.Id.action_mode_bar = global::BarcodeScanner.Resource.Id.action_mode_bar;
+			global::ZXing.Net.Mobile.Resource.Id.action_mode_bar_stub = global::BarcodeScanner.Resource.Id.action_mode_bar_stub;
+			global::ZXing.Net.Mobile.Resource.Id.action_mode_close_button = global::BarcodeScanner.Resource.Id.action_mode_close_button;
+			global::ZXing.Net.Mobile.Resource.Id.action_text = global::BarcodeScanner.Resource.Id.action_text;
+			global::ZXing.Net.Mobile.Resource.Id.activity_chooser_view_content = global::BarcodeScanner.Resource.Id.activity_chooser_view_content;
+			global::ZXing.Net.Mobile.Resource.Id.add = global::BarcodeScanner.Resource.Id.add;
+			global::ZXing.Net.Mobile.Resource.Id.alertTitle = global::BarcodeScanner.Resource.Id.alertTitle;
+			global::ZXing.Net.Mobile.Resource.Id.all = global::BarcodeScanner.Resource.Id.all;
+			global::ZXing.Net.Mobile.Resource.Id.ALT = global::BarcodeScanner.Resource.Id.ALT;
+			global::ZXing.Net.Mobile.Resource.Id.always = global::BarcodeScanner.Resource.Id.always;
+			global::ZXing.Net.Mobile.Resource.Id.async = global::BarcodeScanner.Resource.Id.async;
+			global::ZXing.Net.Mobile.Resource.Id.beginning = global::BarcodeScanner.Resource.Id.beginning;
+			global::ZXing.Net.Mobile.Resource.Id.blocking = global::BarcodeScanner.Resource.Id.blocking;
+			global::ZXing.Net.Mobile.Resource.Id.bottom = global::BarcodeScanner.Resource.Id.bottom;
+			global::ZXing.Net.Mobile.Resource.Id.browser_actions_header_text = global::BarcodeScanner.Resource.Id.browser_actions_header_text;
+			global::ZXing.Net.Mobile.Resource.Id.browser_actions_menu_items = global::BarcodeScanner.Resource.Id.browser_actions_menu_items;
+			global::ZXing.Net.Mobile.Resource.Id.browser_actions_menu_item_icon = global::BarcodeScanner.Resource.Id.browser_actions_menu_item_icon;
+			global::ZXing.Net.Mobile.Resource.Id.browser_actions_menu_item_text = global::BarcodeScanner.Resource.Id.browser_actions_menu_item_text;
+			global::ZXing.Net.Mobile.Resource.Id.browser_actions_menu_view = global::BarcodeScanner.Resource.Id.browser_actions_menu_view;
+			global::ZXing.Net.Mobile.Resource.Id.buttonPanel = global::BarcodeScanner.Resource.Id.buttonPanel;
+			global::ZXing.Net.Mobile.Resource.Id.center = global::BarcodeScanner.Resource.Id.center;
+			global::ZXing.Net.Mobile.Resource.Id.center_horizontal = global::BarcodeScanner.Resource.Id.center_horizontal;
+			global::ZXing.Net.Mobile.Resource.Id.center_vertical = global::BarcodeScanner.Resource.Id.center_vertical;
+			global::ZXing.Net.Mobile.Resource.Id.checkbox = global::BarcodeScanner.Resource.Id.checkbox;
+			global::ZXing.Net.Mobile.Resource.Id.@checked = global::BarcodeScanner.Resource.Id.@checked;
+			global::ZXing.Net.Mobile.Resource.Id.chronometer = global::BarcodeScanner.Resource.Id.chronometer;
+			global::ZXing.Net.Mobile.Resource.Id.clip_horizontal = global::BarcodeScanner.Resource.Id.clip_horizontal;
+			global::ZXing.Net.Mobile.Resource.Id.clip_vertical = global::BarcodeScanner.Resource.Id.clip_vertical;
+			global::ZXing.Net.Mobile.Resource.Id.collapseActionView = global::BarcodeScanner.Resource.Id.collapseActionView;
+			global::ZXing.Net.Mobile.Resource.Id.content = global::BarcodeScanner.Resource.Id.content;
+			global::ZXing.Net.Mobile.Resource.Id.contentFrame = global::BarcodeScanner.Resource.Id.contentFrame;
+			global::ZXing.Net.Mobile.Resource.Id.contentPanel = global::BarcodeScanner.Resource.Id.contentPanel;
+			global::ZXing.Net.Mobile.Resource.Id.CTRL = global::BarcodeScanner.Resource.Id.CTRL;
+			global::ZXing.Net.Mobile.Resource.Id.custom = global::BarcodeScanner.Resource.Id.custom;
+			global::ZXing.Net.Mobile.Resource.Id.customPanel = global::BarcodeScanner.Resource.Id.customPanel;
+			global::ZXing.Net.Mobile.Resource.Id.decor_content_parent = global::BarcodeScanner.Resource.Id.decor_content_parent;
+			global::ZXing.Net.Mobile.Resource.Id.default_activity_button = global::BarcodeScanner.Resource.Id.default_activity_button;
+			global::ZXing.Net.Mobile.Resource.Id.dialog_button = global::BarcodeScanner.Resource.Id.dialog_button;
+			global::ZXing.Net.Mobile.Resource.Id.disableHome = global::BarcodeScanner.Resource.Id.disableHome;
+			global::ZXing.Net.Mobile.Resource.Id.edit_query = global::BarcodeScanner.Resource.Id.edit_query;
+			global::ZXing.Net.Mobile.Resource.Id.end = global::BarcodeScanner.Resource.Id.end;
+			global::ZXing.Net.Mobile.Resource.Id.expanded_menu = global::BarcodeScanner.Resource.Id.expanded_menu;
+			global::ZXing.Net.Mobile.Resource.Id.expand_activities_button = global::BarcodeScanner.Resource.Id.expand_activities_button;
+			global::ZXing.Net.Mobile.Resource.Id.fill = global::BarcodeScanner.Resource.Id.fill;
+			global::ZXing.Net.Mobile.Resource.Id.fill_horizontal = global::BarcodeScanner.Resource.Id.fill_horizontal;
+			global::ZXing.Net.Mobile.Resource.Id.fill_vertical = global::BarcodeScanner.Resource.Id.fill_vertical;
+			global::ZXing.Net.Mobile.Resource.Id.forever = global::BarcodeScanner.Resource.Id.forever;
+			global::ZXing.Net.Mobile.Resource.Id.FUNCTION = global::BarcodeScanner.Resource.Id.FUNCTION;
+			global::ZXing.Net.Mobile.Resource.Id.group_divider = global::BarcodeScanner.Resource.Id.group_divider;
+			global::ZXing.Net.Mobile.Resource.Id.home = global::BarcodeScanner.Resource.Id.home;
+			global::ZXing.Net.Mobile.Resource.Id.homeAsUp = global::BarcodeScanner.Resource.Id.homeAsUp;
+			global::ZXing.Net.Mobile.Resource.Id.icon = global::BarcodeScanner.Resource.Id.icon;
+			global::ZXing.Net.Mobile.Resource.Id.icon_group = global::BarcodeScanner.Resource.Id.icon_group;
+			global::ZXing.Net.Mobile.Resource.Id.ifRoom = global::BarcodeScanner.Resource.Id.ifRoom;
+			global::ZXing.Net.Mobile.Resource.Id.image = global::BarcodeScanner.Resource.Id.image;
+			global::ZXing.Net.Mobile.Resource.Id.info = global::BarcodeScanner.Resource.Id.info;
+			global::ZXing.Net.Mobile.Resource.Id.italic = global::BarcodeScanner.Resource.Id.italic;
+			global::ZXing.Net.Mobile.Resource.Id.left = global::BarcodeScanner.Resource.Id.left;
+			global::ZXing.Net.Mobile.Resource.Id.line1 = global::BarcodeScanner.Resource.Id.line1;
+			global::ZXing.Net.Mobile.Resource.Id.line3 = global::BarcodeScanner.Resource.Id.line3;
+			global::ZXing.Net.Mobile.Resource.Id.listMode = global::BarcodeScanner.Resource.Id.listMode;
+			global::ZXing.Net.Mobile.Resource.Id.list_item = global::BarcodeScanner.Resource.Id.list_item;
+			global::ZXing.Net.Mobile.Resource.Id.message = global::BarcodeScanner.Resource.Id.message;
+			global::ZXing.Net.Mobile.Resource.Id.META = global::BarcodeScanner.Resource.Id.META;
+			global::ZXing.Net.Mobile.Resource.Id.middle = global::BarcodeScanner.Resource.Id.middle;
+			global::ZXing.Net.Mobile.Resource.Id.multiply = global::BarcodeScanner.Resource.Id.multiply;
+			global::ZXing.Net.Mobile.Resource.Id.never = global::BarcodeScanner.Resource.Id.never;
+			global::ZXing.Net.Mobile.Resource.Id.none = global::BarcodeScanner.Resource.Id.none;
+			global::ZXing.Net.Mobile.Resource.Id.normal = global::BarcodeScanner.Resource.Id.normal;
+			global::ZXing.Net.Mobile.Resource.Id.notification_background = global::BarcodeScanner.Resource.Id.notification_background;
+			global::ZXing.Net.Mobile.Resource.Id.notification_main_column = global::BarcodeScanner.Resource.Id.notification_main_column;
+			global::ZXing.Net.Mobile.Resource.Id.notification_main_column_container = global::BarcodeScanner.Resource.Id.notification_main_column_container;
+			global::ZXing.Net.Mobile.Resource.Id.off = global::BarcodeScanner.Resource.Id.off;
+			global::ZXing.Net.Mobile.Resource.Id.on = global::BarcodeScanner.Resource.Id.on;
+			global::ZXing.Net.Mobile.Resource.Id.parentPanel = global::BarcodeScanner.Resource.Id.parentPanel;
+			global::ZXing.Net.Mobile.Resource.Id.progress_circular = global::BarcodeScanner.Resource.Id.progress_circular;
+			global::ZXing.Net.Mobile.Resource.Id.progress_horizontal = global::BarcodeScanner.Resource.Id.progress_horizontal;
+			global::ZXing.Net.Mobile.Resource.Id.radio = global::BarcodeScanner.Resource.Id.radio;
+			global::ZXing.Net.Mobile.Resource.Id.right = global::BarcodeScanner.Resource.Id.right;
+			global::ZXing.Net.Mobile.Resource.Id.right_icon = global::BarcodeScanner.Resource.Id.right_icon;
+			global::ZXing.Net.Mobile.Resource.Id.right_side = global::BarcodeScanner.Resource.Id.right_side;
+			global::ZXing.Net.Mobile.Resource.Id.screen = global::BarcodeScanner.Resource.Id.screen;
+			global::ZXing.Net.Mobile.Resource.Id.scrollIndicatorDown = global::BarcodeScanner.Resource.Id.scrollIndicatorDown;
+			global::ZXing.Net.Mobile.Resource.Id.scrollIndicatorUp = global::BarcodeScanner.Resource.Id.scrollIndicatorUp;
+			global::ZXing.Net.Mobile.Resource.Id.scrollView = global::BarcodeScanner.Resource.Id.scrollView;
+			global::ZXing.Net.Mobile.Resource.Id.search_badge = global::BarcodeScanner.Resource.Id.search_badge;
+			global::ZXing.Net.Mobile.Resource.Id.search_bar = global::BarcodeScanner.Resource.Id.search_bar;
+			global::ZXing.Net.Mobile.Resource.Id.search_button = global::BarcodeScanner.Resource.Id.search_button;
+			global::ZXing.Net.Mobile.Resource.Id.search_close_btn = global::BarcodeScanner.Resource.Id.search_close_btn;
+			global::ZXing.Net.Mobile.Resource.Id.search_edit_frame = global::BarcodeScanner.Resource.Id.search_edit_frame;
+			global::ZXing.Net.Mobile.Resource.Id.search_go_btn = global::BarcodeScanner.Resource.Id.search_go_btn;
+			global::ZXing.Net.Mobile.Resource.Id.search_mag_icon = global::BarcodeScanner.Resource.Id.search_mag_icon;
+			global::ZXing.Net.Mobile.Resource.Id.search_plate = global::BarcodeScanner.Resource.Id.search_plate;
+			global::ZXing.Net.Mobile.Resource.Id.search_src_text = global::BarcodeScanner.Resource.Id.search_src_text;
+			global::ZXing.Net.Mobile.Resource.Id.search_voice_btn = global::BarcodeScanner.Resource.Id.search_voice_btn;
+			global::ZXing.Net.Mobile.Resource.Id.select_dialog_listview = global::BarcodeScanner.Resource.Id.select_dialog_listview;
+			global::ZXing.Net.Mobile.Resource.Id.SHIFT = global::BarcodeScanner.Resource.Id.SHIFT;
+			global::ZXing.Net.Mobile.Resource.Id.shortcut = global::BarcodeScanner.Resource.Id.shortcut;
+			global::ZXing.Net.Mobile.Resource.Id.showCustom = global::BarcodeScanner.Resource.Id.showCustom;
+			global::ZXing.Net.Mobile.Resource.Id.showHome = global::BarcodeScanner.Resource.Id.showHome;
+			global::ZXing.Net.Mobile.Resource.Id.showTitle = global::BarcodeScanner.Resource.Id.showTitle;
+			global::ZXing.Net.Mobile.Resource.Id.spacer = global::BarcodeScanner.Resource.Id.spacer;
+			global::ZXing.Net.Mobile.Resource.Id.split_action_bar = global::BarcodeScanner.Resource.Id.split_action_bar;
+			global::ZXing.Net.Mobile.Resource.Id.src_atop = global::BarcodeScanner.Resource.Id.src_atop;
+			global::ZXing.Net.Mobile.Resource.Id.src_in = global::BarcodeScanner.Resource.Id.src_in;
+			global::ZXing.Net.Mobile.Resource.Id.src_over = global::BarcodeScanner.Resource.Id.src_over;
+			global::ZXing.Net.Mobile.Resource.Id.start = global::BarcodeScanner.Resource.Id.start;
+			global::ZXing.Net.Mobile.Resource.Id.submenuarrow = global::BarcodeScanner.Resource.Id.submenuarrow;
+			global::ZXing.Net.Mobile.Resource.Id.submit_area = global::BarcodeScanner.Resource.Id.submit_area;
+			global::ZXing.Net.Mobile.Resource.Id.SYM = global::BarcodeScanner.Resource.Id.SYM;
+			global::ZXing.Net.Mobile.Resource.Id.tabMode = global::BarcodeScanner.Resource.Id.tabMode;
+			global::ZXing.Net.Mobile.Resource.Id.tag_accessibility_actions = global::BarcodeScanner.Resource.Id.tag_accessibility_actions;
+			global::ZXing.Net.Mobile.Resource.Id.tag_accessibility_clickable_spans = global::BarcodeScanner.Resource.Id.tag_accessibility_clickable_spans;
+			global::ZXing.Net.Mobile.Resource.Id.tag_accessibility_heading = global::BarcodeScanner.Resource.Id.tag_accessibility_heading;
+			global::ZXing.Net.Mobile.Resource.Id.tag_accessibility_pane_title = global::BarcodeScanner.Resource.Id.tag_accessibility_pane_title;
+			global::ZXing.Net.Mobile.Resource.Id.tag_screen_reader_focusable = global::BarcodeScanner.Resource.Id.tag_screen_reader_focusable;
+			global::ZXing.Net.Mobile.Resource.Id.tag_transition_group = global::BarcodeScanner.Resource.Id.tag_transition_group;
+			global::ZXing.Net.Mobile.Resource.Id.tag_unhandled_key_event_manager = global::BarcodeScanner.Resource.Id.tag_unhandled_key_event_manager;
+			global::ZXing.Net.Mobile.Resource.Id.tag_unhandled_key_listeners = global::BarcodeScanner.Resource.Id.tag_unhandled_key_listeners;
+			global::ZXing.Net.Mobile.Resource.Id.text = global::BarcodeScanner.Resource.Id.text;
+			global::ZXing.Net.Mobile.Resource.Id.text2 = global::BarcodeScanner.Resource.Id.text2;
+			global::ZXing.Net.Mobile.Resource.Id.textSpacerNoButtons = global::BarcodeScanner.Resource.Id.textSpacerNoButtons;
+			global::ZXing.Net.Mobile.Resource.Id.textSpacerNoTitle = global::BarcodeScanner.Resource.Id.textSpacerNoTitle;
+			global::ZXing.Net.Mobile.Resource.Id.time = global::BarcodeScanner.Resource.Id.time;
+			global::ZXing.Net.Mobile.Resource.Id.title = global::BarcodeScanner.Resource.Id.title;
+			global::ZXing.Net.Mobile.Resource.Id.titleDividerNoCustom = global::BarcodeScanner.Resource.Id.titleDividerNoCustom;
+			global::ZXing.Net.Mobile.Resource.Id.title_template = global::BarcodeScanner.Resource.Id.title_template;
+			global::ZXing.Net.Mobile.Resource.Id.top = global::BarcodeScanner.Resource.Id.top;
+			global::ZXing.Net.Mobile.Resource.Id.topPanel = global::BarcodeScanner.Resource.Id.topPanel;
+			global::ZXing.Net.Mobile.Resource.Id.@unchecked = global::BarcodeScanner.Resource.Id.@unchecked;
+			global::ZXing.Net.Mobile.Resource.Id.uniform = global::BarcodeScanner.Resource.Id.uniform;
+			global::ZXing.Net.Mobile.Resource.Id.up = global::BarcodeScanner.Resource.Id.up;
+			global::ZXing.Net.Mobile.Resource.Id.useLogo = global::BarcodeScanner.Resource.Id.useLogo;
+			global::ZXing.Net.Mobile.Resource.Id.withText = global::BarcodeScanner.Resource.Id.withText;
+			global::ZXing.Net.Mobile.Resource.Id.wrap_content = global::BarcodeScanner.Resource.Id.wrap_content;
+			global::ZXing.Net.Mobile.Resource.Integer.abc_config_activityDefaultDur = global::BarcodeScanner.Resource.Integer.abc_config_activityDefaultDur;
+			global::ZXing.Net.Mobile.Resource.Integer.abc_config_activityShortDur = global::BarcodeScanner.Resource.Integer.abc_config_activityShortDur;
+			global::ZXing.Net.Mobile.Resource.Integer.cancel_button_image_alpha = global::BarcodeScanner.Resource.Integer.cancel_button_image_alpha;
+			global::ZXing.Net.Mobile.Resource.Integer.config_tooltipAnimTime = global::BarcodeScanner.Resource.Integer.config_tooltipAnimTime;
+			global::ZXing.Net.Mobile.Resource.Integer.status_bar_notification_info_maxnum = global::BarcodeScanner.Resource.Integer.status_bar_notification_info_maxnum;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::BarcodeScanner.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::BarcodeScanner.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::BarcodeScanner.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::BarcodeScanner.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::BarcodeScanner.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::BarcodeScanner.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Resource.Interpolator.fast_out_slow_in = global::BarcodeScanner.Resource.Interpolator.fast_out_slow_in;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_bar_title_item = global::BarcodeScanner.Resource.Layout.abc_action_bar_title_item;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_bar_up_container = global::BarcodeScanner.Resource.Layout.abc_action_bar_up_container;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_menu_item_layout = global::BarcodeScanner.Resource.Layout.abc_action_menu_item_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_menu_layout = global::BarcodeScanner.Resource.Layout.abc_action_menu_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_mode_bar = global::BarcodeScanner.Resource.Layout.abc_action_mode_bar;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_mode_close_item_material = global::BarcodeScanner.Resource.Layout.abc_action_mode_close_item_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_activity_chooser_view = global::BarcodeScanner.Resource.Layout.abc_activity_chooser_view;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_activity_chooser_view_list_item = global::BarcodeScanner.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_alert_dialog_button_bar_material = global::BarcodeScanner.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_alert_dialog_material = global::BarcodeScanner.Resource.Layout.abc_alert_dialog_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_alert_dialog_title_material = global::BarcodeScanner.Resource.Layout.abc_alert_dialog_title_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_cascading_menu_item_layout = global::BarcodeScanner.Resource.Layout.abc_cascading_menu_item_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_dialog_title_material = global::BarcodeScanner.Resource.Layout.abc_dialog_title_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_expanded_menu_layout = global::BarcodeScanner.Resource.Layout.abc_expanded_menu_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_list_menu_item_checkbox = global::BarcodeScanner.Resource.Layout.abc_list_menu_item_checkbox;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_list_menu_item_icon = global::BarcodeScanner.Resource.Layout.abc_list_menu_item_icon;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_list_menu_item_layout = global::BarcodeScanner.Resource.Layout.abc_list_menu_item_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_list_menu_item_radio = global::BarcodeScanner.Resource.Layout.abc_list_menu_item_radio;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_popup_menu_header_item_layout = global::BarcodeScanner.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_popup_menu_item_layout = global::BarcodeScanner.Resource.Layout.abc_popup_menu_item_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_screen_content_include = global::BarcodeScanner.Resource.Layout.abc_screen_content_include;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_screen_simple = global::BarcodeScanner.Resource.Layout.abc_screen_simple;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_screen_simple_overlay_action_mode = global::BarcodeScanner.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_screen_toolbar = global::BarcodeScanner.Resource.Layout.abc_screen_toolbar;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_search_dropdown_item_icons_2line = global::BarcodeScanner.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_search_view = global::BarcodeScanner.Resource.Layout.abc_search_view;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_select_dialog_material = global::BarcodeScanner.Resource.Layout.abc_select_dialog_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_tooltip = global::BarcodeScanner.Resource.Layout.abc_tooltip;
+			global::ZXing.Net.Mobile.Resource.Layout.browser_actions_context_menu_page = global::BarcodeScanner.Resource.Layout.browser_actions_context_menu_page;
+			global::ZXing.Net.Mobile.Resource.Layout.browser_actions_context_menu_row = global::BarcodeScanner.Resource.Layout.browser_actions_context_menu_row;
+			global::ZXing.Net.Mobile.Resource.Layout.custom_dialog = global::BarcodeScanner.Resource.Layout.custom_dialog;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_action = global::BarcodeScanner.Resource.Layout.notification_action;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_action_tombstone = global::BarcodeScanner.Resource.Layout.notification_action_tombstone;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_template_custom_big = global::BarcodeScanner.Resource.Layout.notification_template_custom_big;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_template_icon_group = global::BarcodeScanner.Resource.Layout.notification_template_icon_group;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_template_part_chronometer = global::BarcodeScanner.Resource.Layout.notification_template_part_chronometer;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_template_part_time = global::BarcodeScanner.Resource.Layout.notification_template_part_time;
+			global::ZXing.Net.Mobile.Resource.Layout.select_dialog_item_material = global::BarcodeScanner.Resource.Layout.select_dialog_item_material;
+			global::ZXing.Net.Mobile.Resource.Layout.select_dialog_multichoice_material = global::BarcodeScanner.Resource.Layout.select_dialog_multichoice_material;
+			global::ZXing.Net.Mobile.Resource.Layout.select_dialog_singlechoice_material = global::BarcodeScanner.Resource.Layout.select_dialog_singlechoice_material;
+			global::ZXing.Net.Mobile.Resource.Layout.support_simple_spinner_dropdown_item = global::BarcodeScanner.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::ZXing.Net.Mobile.Resource.Layout.zxingscanneractivitylayout = global::BarcodeScanner.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::BarcodeScanner.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Net.Mobile.Resource.String.abc_action_bar_home_description = global::BarcodeScanner.Resource.String.abc_action_bar_home_description;
+			global::ZXing.Net.Mobile.Resource.String.abc_action_bar_up_description = global::BarcodeScanner.Resource.String.abc_action_bar_up_description;
+			global::ZXing.Net.Mobile.Resource.String.abc_action_menu_overflow_description = global::BarcodeScanner.Resource.String.abc_action_menu_overflow_description;
+			global::ZXing.Net.Mobile.Resource.String.abc_action_mode_done = global::BarcodeScanner.Resource.String.abc_action_mode_done;
+			global::ZXing.Net.Mobile.Resource.String.abc_activitychooserview_choose_application = global::BarcodeScanner.Resource.String.abc_activitychooserview_choose_application;
+			global::ZXing.Net.Mobile.Resource.String.abc_activity_chooser_view_see_all = global::BarcodeScanner.Resource.String.abc_activity_chooser_view_see_all;
+			global::ZXing.Net.Mobile.Resource.String.abc_capital_off = global::BarcodeScanner.Resource.String.abc_capital_off;
+			global::ZXing.Net.Mobile.Resource.String.abc_capital_on = global::BarcodeScanner.Resource.String.abc_capital_on;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_alt_shortcut_label = global::BarcodeScanner.Resource.String.abc_menu_alt_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_ctrl_shortcut_label = global::BarcodeScanner.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_delete_shortcut_label = global::BarcodeScanner.Resource.String.abc_menu_delete_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_enter_shortcut_label = global::BarcodeScanner.Resource.String.abc_menu_enter_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_function_shortcut_label = global::BarcodeScanner.Resource.String.abc_menu_function_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_meta_shortcut_label = global::BarcodeScanner.Resource.String.abc_menu_meta_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_shift_shortcut_label = global::BarcodeScanner.Resource.String.abc_menu_shift_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_space_shortcut_label = global::BarcodeScanner.Resource.String.abc_menu_space_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_sym_shortcut_label = global::BarcodeScanner.Resource.String.abc_menu_sym_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_prepend_shortcut_label = global::BarcodeScanner.Resource.String.abc_prepend_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_searchview_description_clear = global::BarcodeScanner.Resource.String.abc_searchview_description_clear;
+			global::ZXing.Net.Mobile.Resource.String.abc_searchview_description_query = global::BarcodeScanner.Resource.String.abc_searchview_description_query;
+			global::ZXing.Net.Mobile.Resource.String.abc_searchview_description_search = global::BarcodeScanner.Resource.String.abc_searchview_description_search;
+			global::ZXing.Net.Mobile.Resource.String.abc_searchview_description_submit = global::BarcodeScanner.Resource.String.abc_searchview_description_submit;
+			global::ZXing.Net.Mobile.Resource.String.abc_searchview_description_voice = global::BarcodeScanner.Resource.String.abc_searchview_description_voice;
+			global::ZXing.Net.Mobile.Resource.String.abc_search_hint = global::BarcodeScanner.Resource.String.abc_search_hint;
+			global::ZXing.Net.Mobile.Resource.String.abc_shareactionprovider_share_with = global::BarcodeScanner.Resource.String.abc_shareactionprovider_share_with;
+			global::ZXing.Net.Mobile.Resource.String.abc_shareactionprovider_share_with_application = global::BarcodeScanner.Resource.String.abc_shareactionprovider_share_with_application;
+			global::ZXing.Net.Mobile.Resource.String.abc_toolbar_collapse_description = global::BarcodeScanner.Resource.String.abc_toolbar_collapse_description;
+			global::ZXing.Net.Mobile.Resource.String.search_menu_title = global::BarcodeScanner.Resource.String.search_menu_title;
+			global::ZXing.Net.Mobile.Resource.String.status_bar_notification_info_overflow = global::BarcodeScanner.Resource.String.status_bar_notification_info_overflow;
+			global::ZXing.Net.Mobile.Resource.Style.AlertDialog_AppCompat = global::BarcodeScanner.Resource.Style.AlertDialog_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.AlertDialog_AppCompat_Light = global::BarcodeScanner.Resource.Style.AlertDialog_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Animation_AppCompat_Dialog = global::BarcodeScanner.Resource.Style.Animation_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Animation_AppCompat_DropDownUp = global::BarcodeScanner.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::ZXing.Net.Mobile.Resource.Style.Animation_AppCompat_Tooltip = global::BarcodeScanner.Resource.Style.Animation_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Resource.Style.Base_AlertDialog_AppCompat = global::BarcodeScanner.Resource.Style.Base_AlertDialog_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_AlertDialog_AppCompat_Light = global::BarcodeScanner.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Animation_AppCompat_Dialog = global::BarcodeScanner.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::BarcodeScanner.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Animation_AppCompat_Tooltip = global::BarcodeScanner.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::BarcodeScanner.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_DialogWindowTitle_AppCompat = global::BarcodeScanner.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Button = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Large = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Small = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Title = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BarcodeScanner.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BarcodeScanner.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BarcodeScanner.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::BarcodeScanner.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat = global::BarcodeScanner.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::BarcodeScanner.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::BarcodeScanner.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::BarcodeScanner.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::BarcodeScanner.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::BarcodeScanner.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::BarcodeScanner.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Dialog = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::BarcodeScanner.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::BarcodeScanner.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V21_Theme_AppCompat = global::BarcodeScanner.Resource.Style.Base_V21_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::BarcodeScanner.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V21_Theme_AppCompat_Light = global::BarcodeScanner.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::BarcodeScanner.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V22_Theme_AppCompat = global::BarcodeScanner.Resource.Style.Base_V22_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V22_Theme_AppCompat_Light = global::BarcodeScanner.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V23_Theme_AppCompat = global::BarcodeScanner.Resource.Style.Base_V23_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V23_Theme_AppCompat_Light = global::BarcodeScanner.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V26_Theme_AppCompat = global::BarcodeScanner.Resource.Style.Base_V26_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V26_Theme_AppCompat_Light = global::BarcodeScanner.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::BarcodeScanner.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V28_Theme_AppCompat = global::BarcodeScanner.Resource.Style.Base_V28_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V28_Theme_AppCompat_Light = global::BarcodeScanner.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::BarcodeScanner.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Theme_AppCompat = global::BarcodeScanner.Resource.Style.Base_V7_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::BarcodeScanner.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Theme_AppCompat_Light = global::BarcodeScanner.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::BarcodeScanner.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::BarcodeScanner.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::BarcodeScanner.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::BarcodeScanner.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionBar = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionButton = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionMode = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Button;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button_Small = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_EditText = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ImageButton = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ListView = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_RatingBar = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_SearchView = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_SeekBar = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Spinner = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_TextView = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Toolbar = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::BarcodeScanner.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_AppCompat = global::BarcodeScanner.Resource.Style.Platform_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_AppCompat_Light = global::BarcodeScanner.Resource.Style.Platform_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_ThemeOverlay_AppCompat = global::BarcodeScanner.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::BarcodeScanner.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::BarcodeScanner.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_V21_AppCompat = global::BarcodeScanner.Resource.Style.Platform_V21_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_V21_AppCompat_Light = global::BarcodeScanner.Resource.Style.Platform_V21_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_V25_AppCompat = global::BarcodeScanner.Resource.Style.Platform_V25_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_V25_AppCompat_Light = global::BarcodeScanner.Resource.Style.Platform_V25_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_Widget_AppCompat_Spinner = global::BarcodeScanner.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::BarcodeScanner.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::BarcodeScanner.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::ZXing.Net.Mobile.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::BarcodeScanner.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::ZXing.Net.Mobile.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::BarcodeScanner.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Body1 = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Body2 = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Button = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Button;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Caption = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Display1 = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Display2 = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Display3 = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Display4 = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Headline = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Large = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Large;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Medium = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Menu = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Small = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Small;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Subhead = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Title = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Tooltip = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BarcodeScanner.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Compat_Notification = global::BarcodeScanner.Resource.Style.TextAppearance_Compat_Notification;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Compat_Notification_Info = global::BarcodeScanner.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::BarcodeScanner.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Compat_Notification_Time = global::BarcodeScanner.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Compat_Notification_Title = global::BarcodeScanner.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BarcodeScanner.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BarcodeScanner.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::BarcodeScanner.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat = global::BarcodeScanner.Resource.Style.ThemeOverlay_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::BarcodeScanner.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_Dark = global::BarcodeScanner.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::BarcodeScanner.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::BarcodeScanner.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::BarcodeScanner.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::BarcodeScanner.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::BarcodeScanner.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_Light = global::BarcodeScanner.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat = global::BarcodeScanner.Resource.Style.Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_CompactMenu = global::BarcodeScanner.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight = global::BarcodeScanner.Resource.Style.Theme_AppCompat_DayNight;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::BarcodeScanner.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::BarcodeScanner.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::BarcodeScanner.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::BarcodeScanner.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::BarcodeScanner.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::BarcodeScanner.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Dialog = global::BarcodeScanner.Resource.Style.Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::BarcodeScanner.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Dialog_Alert = global::BarcodeScanner.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::BarcodeScanner.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light = global::BarcodeScanner.Resource.Style.Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::BarcodeScanner.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_Dialog = global::BarcodeScanner.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::BarcodeScanner.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::BarcodeScanner.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::BarcodeScanner.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::BarcodeScanner.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_NoActionBar = global::BarcodeScanner.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionButton = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ActionButton;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionMode = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ActionMode;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActivityChooserView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Button;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ButtonBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button_Borderless = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button_Colored = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button_Small = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Button_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::BarcodeScanner.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::BarcodeScanner.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::BarcodeScanner.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::BarcodeScanner.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::BarcodeScanner.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_EditText = global::BarcodeScanner.Resource.Style.Widget_AppCompat_EditText;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ImageButton = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ImageButton;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionButton = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_SearchView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ListMenuView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ListPopupWindow = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ListView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ListView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ListView_DropDown = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ListView_Menu = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_PopupMenu = global::BarcodeScanner.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::BarcodeScanner.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_PopupWindow = global::BarcodeScanner.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ProgressBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::BarcodeScanner.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_RatingBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_RatingBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::BarcodeScanner.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_RatingBar_Small = global::BarcodeScanner.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_SearchView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_SearchView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_SeekBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_SeekBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::BarcodeScanner.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Spinner = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_TextView = global::BarcodeScanner.Resource.Style.Widget_AppCompat_TextView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::BarcodeScanner.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Toolbar = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::BarcodeScanner.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_Compat_NotificationActionContainer = global::BarcodeScanner.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_Compat_NotificationActionText = global::BarcodeScanner.Resource.Style.Widget_Compat_NotificationActionText;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_Support_CoordinatorLayout = global::BarcodeScanner.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar = global::BarcodeScanner.Resource.Styleable.ActionBar;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBarLayout = global::BarcodeScanner.Resource.Styleable.ActionBarLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::BarcodeScanner.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_background = global::BarcodeScanner.Resource.Styleable.ActionBar_background;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_backgroundSplit = global::BarcodeScanner.Resource.Styleable.ActionBar_backgroundSplit;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_backgroundStacked = global::BarcodeScanner.Resource.Styleable.ActionBar_backgroundStacked;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetEnd = global::BarcodeScanner.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::BarcodeScanner.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetLeft = global::BarcodeScanner.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetRight = global::BarcodeScanner.Resource.Styleable.ActionBar_contentInsetRight;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetStart = global::BarcodeScanner.Resource.Styleable.ActionBar_contentInsetStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::BarcodeScanner.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_customNavigationLayout = global::BarcodeScanner.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_displayOptions = global::BarcodeScanner.Resource.Styleable.ActionBar_displayOptions;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_divider = global::BarcodeScanner.Resource.Styleable.ActionBar_divider;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_elevation = global::BarcodeScanner.Resource.Styleable.ActionBar_elevation;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_height = global::BarcodeScanner.Resource.Styleable.ActionBar_height;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_hideOnContentScroll = global::BarcodeScanner.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_homeAsUpIndicator = global::BarcodeScanner.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_homeLayout = global::BarcodeScanner.Resource.Styleable.ActionBar_homeLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_icon = global::BarcodeScanner.Resource.Styleable.ActionBar_icon;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::BarcodeScanner.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_itemPadding = global::BarcodeScanner.Resource.Styleable.ActionBar_itemPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_logo = global::BarcodeScanner.Resource.Styleable.ActionBar_logo;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_navigationMode = global::BarcodeScanner.Resource.Styleable.ActionBar_navigationMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_popupTheme = global::BarcodeScanner.Resource.Styleable.ActionBar_popupTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_progressBarPadding = global::BarcodeScanner.Resource.Styleable.ActionBar_progressBarPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_progressBarStyle = global::BarcodeScanner.Resource.Styleable.ActionBar_progressBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_subtitle = global::BarcodeScanner.Resource.Styleable.ActionBar_subtitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_subtitleTextStyle = global::BarcodeScanner.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_title = global::BarcodeScanner.Resource.Styleable.ActionBar_title;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_titleTextStyle = global::BarcodeScanner.Resource.Styleable.ActionBar_titleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMenuItemView = global::BarcodeScanner.Resource.Styleable.ActionMenuItemView;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMenuItemView_android_minWidth = global::BarcodeScanner.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMenuView = global::BarcodeScanner.Resource.Styleable.ActionMenuView;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode = global::BarcodeScanner.Resource.Styleable.ActionMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_background = global::BarcodeScanner.Resource.Styleable.ActionMode_background;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_backgroundSplit = global::BarcodeScanner.Resource.Styleable.ActionMode_backgroundSplit;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_closeItemLayout = global::BarcodeScanner.Resource.Styleable.ActionMode_closeItemLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_height = global::BarcodeScanner.Resource.Styleable.ActionMode_height;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_subtitleTextStyle = global::BarcodeScanner.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_titleTextStyle = global::BarcodeScanner.Resource.Styleable.ActionMode_titleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActivityChooserView = global::BarcodeScanner.Resource.Styleable.ActivityChooserView;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::BarcodeScanner.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActivityChooserView_initialActivityCount = global::BarcodeScanner.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog = global::BarcodeScanner.Resource.Styleable.AlertDialog;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_android_layout = global::BarcodeScanner.Resource.Styleable.AlertDialog_android_layout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_buttonIconDimen = global::BarcodeScanner.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::BarcodeScanner.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_listItemLayout = global::BarcodeScanner.Resource.Styleable.AlertDialog_listItemLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_listLayout = global::BarcodeScanner.Resource.Styleable.AlertDialog_listLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::BarcodeScanner.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_showTitle = global::BarcodeScanner.Resource.Styleable.AlertDialog_showTitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::BarcodeScanner.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableItem = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableTransition = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::BarcodeScanner.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatImageView = global::BarcodeScanner.Resource.Styleable.AppCompatImageView;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatImageView_android_src = global::BarcodeScanner.Resource.Styleable.AppCompatImageView_android_src;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatImageView_srcCompat = global::BarcodeScanner.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatImageView_tint = global::BarcodeScanner.Resource.Styleable.AppCompatImageView_tint;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatImageView_tintMode = global::BarcodeScanner.Resource.Styleable.AppCompatImageView_tintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatSeekBar = global::BarcodeScanner.Resource.Styleable.AppCompatSeekBar;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatSeekBar_android_thumb = global::BarcodeScanner.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatSeekBar_tickMark = global::BarcodeScanner.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::BarcodeScanner.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::BarcodeScanner.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper = global::BarcodeScanner.Resource.Styleable.AppCompatTextHelper;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::BarcodeScanner.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::BarcodeScanner.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::BarcodeScanner.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::BarcodeScanner.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::BarcodeScanner.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::BarcodeScanner.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::BarcodeScanner.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView = global::BarcodeScanner.Resource.Styleable.AppCompatTextView;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_android_textAppearance = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableTint = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableTintMode = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_fontFamily = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_lineHeight = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_textAllCaps = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_textLocale = global::BarcodeScanner.Resource.Styleable.AppCompatTextView_textLocale;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme = global::BarcodeScanner.Resource.Styleable.AppCompatTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarDivider = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarSize = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarTheme = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeBackground = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_checkboxStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorAccent = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorControlActivated = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorControlNormal = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorError = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_colorError;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorPrimary = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_controlBackground = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dialogTheme = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dividerVertical = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_editTextBackground = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_editTextColor = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_editTextStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_panelBackground = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_searchViewStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_seekBarStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_spinnerStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_switchStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_toolbarStyle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowActionBar = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowNoTitle = global::BarcodeScanner.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ButtonBarLayout = global::BarcodeScanner.Resource.Styleable.ButtonBarLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ButtonBarLayout_allowStacking = global::BarcodeScanner.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::ZXing.Net.Mobile.Resource.Styleable.ColorStateListItem = global::BarcodeScanner.Resource.Styleable.ColorStateListItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.ColorStateListItem_alpha = global::BarcodeScanner.Resource.Styleable.ColorStateListItem_alpha;
+			global::ZXing.Net.Mobile.Resource.Styleable.ColorStateListItem_android_alpha = global::BarcodeScanner.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::ZXing.Net.Mobile.Resource.Styleable.ColorStateListItem_android_color = global::BarcodeScanner.Resource.Styleable.ColorStateListItem_android_color;
+			global::ZXing.Net.Mobile.Resource.Styleable.CompoundButton = global::BarcodeScanner.Resource.Styleable.CompoundButton;
+			global::ZXing.Net.Mobile.Resource.Styleable.CompoundButton_android_button = global::BarcodeScanner.Resource.Styleable.CompoundButton_android_button;
+			global::ZXing.Net.Mobile.Resource.Styleable.CompoundButton_buttonCompat = global::BarcodeScanner.Resource.Styleable.CompoundButton_buttonCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.CompoundButton_buttonTint = global::BarcodeScanner.Resource.Styleable.CompoundButton_buttonTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.CompoundButton_buttonTintMode = global::BarcodeScanner.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_keylines = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout_keylines;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout_Layout;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::BarcodeScanner.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle = global::BarcodeScanner.Resource.Styleable.DrawerArrowToggle;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::BarcodeScanner.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::BarcodeScanner.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_barLength = global::BarcodeScanner.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_color = global::BarcodeScanner.Resource.Styleable.DrawerArrowToggle_color;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_drawableSize = global::BarcodeScanner.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::BarcodeScanner.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_spinBars = global::BarcodeScanner.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_thickness = global::BarcodeScanner.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily = global::BarcodeScanner.Resource.Styleable.FontFamily;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont = global::BarcodeScanner.Resource.Styleable.FontFamilyFont;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_android_font = global::BarcodeScanner.Resource.Styleable.FontFamilyFont_android_font;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_android_fontStyle = global::BarcodeScanner.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::BarcodeScanner.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_android_fontWeight = global::BarcodeScanner.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::BarcodeScanner.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_font = global::BarcodeScanner.Resource.Styleable.FontFamilyFont_font;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_fontStyle = global::BarcodeScanner.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::BarcodeScanner.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_fontWeight = global::BarcodeScanner.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_ttcIndex = global::BarcodeScanner.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderAuthority = global::BarcodeScanner.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderCerts = global::BarcodeScanner.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::BarcodeScanner.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::BarcodeScanner.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderPackage = global::BarcodeScanner.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderQuery = global::BarcodeScanner.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor = global::BarcodeScanner.Resource.Styleable.GradientColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColorItem = global::BarcodeScanner.Resource.Styleable.GradientColorItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColorItem_android_color = global::BarcodeScanner.Resource.Styleable.GradientColorItem_android_color;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColorItem_android_offset = global::BarcodeScanner.Resource.Styleable.GradientColorItem_android_offset;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_centerColor = global::BarcodeScanner.Resource.Styleable.GradientColor_android_centerColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_centerX = global::BarcodeScanner.Resource.Styleable.GradientColor_android_centerX;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_centerY = global::BarcodeScanner.Resource.Styleable.GradientColor_android_centerY;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_endColor = global::BarcodeScanner.Resource.Styleable.GradientColor_android_endColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_endX = global::BarcodeScanner.Resource.Styleable.GradientColor_android_endX;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_endY = global::BarcodeScanner.Resource.Styleable.GradientColor_android_endY;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_gradientRadius = global::BarcodeScanner.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_startColor = global::BarcodeScanner.Resource.Styleable.GradientColor_android_startColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_startX = global::BarcodeScanner.Resource.Styleable.GradientColor_android_startX;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_startY = global::BarcodeScanner.Resource.Styleable.GradientColor_android_startY;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_tileMode = global::BarcodeScanner.Resource.Styleable.GradientColor_android_tileMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_type = global::BarcodeScanner.Resource.Styleable.GradientColor_android_type;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_android_gravity = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_android_orientation = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_divider = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_divider;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_Layout = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_showDividers = global::BarcodeScanner.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::ZXing.Net.Mobile.Resource.Styleable.ListPopupWindow = global::BarcodeScanner.Resource.Styleable.ListPopupWindow;
+			global::ZXing.Net.Mobile.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::BarcodeScanner.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::ZXing.Net.Mobile.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::BarcodeScanner.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup = global::BarcodeScanner.Resource.Styleable.MenuGroup;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_checkableBehavior = global::BarcodeScanner.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_enabled = global::BarcodeScanner.Resource.Styleable.MenuGroup_android_enabled;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_id = global::BarcodeScanner.Resource.Styleable.MenuGroup_android_id;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_menuCategory = global::BarcodeScanner.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_orderInCategory = global::BarcodeScanner.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_visible = global::BarcodeScanner.Resource.Styleable.MenuGroup_android_visible;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem = global::BarcodeScanner.Resource.Styleable.MenuItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_actionLayout = global::BarcodeScanner.Resource.Styleable.MenuItem_actionLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_actionProviderClass = global::BarcodeScanner.Resource.Styleable.MenuItem_actionProviderClass;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_actionViewClass = global::BarcodeScanner.Resource.Styleable.MenuItem_actionViewClass;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_alphabeticModifiers = global::BarcodeScanner.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::BarcodeScanner.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_checkable = global::BarcodeScanner.Resource.Styleable.MenuItem_android_checkable;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_checked = global::BarcodeScanner.Resource.Styleable.MenuItem_android_checked;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_enabled = global::BarcodeScanner.Resource.Styleable.MenuItem_android_enabled;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_icon = global::BarcodeScanner.Resource.Styleable.MenuItem_android_icon;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_id = global::BarcodeScanner.Resource.Styleable.MenuItem_android_id;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_menuCategory = global::BarcodeScanner.Resource.Styleable.MenuItem_android_menuCategory;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_numericShortcut = global::BarcodeScanner.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_onClick = global::BarcodeScanner.Resource.Styleable.MenuItem_android_onClick;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_orderInCategory = global::BarcodeScanner.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_title = global::BarcodeScanner.Resource.Styleable.MenuItem_android_title;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_titleCondensed = global::BarcodeScanner.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_visible = global::BarcodeScanner.Resource.Styleable.MenuItem_android_visible;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_contentDescription = global::BarcodeScanner.Resource.Styleable.MenuItem_contentDescription;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_iconTint = global::BarcodeScanner.Resource.Styleable.MenuItem_iconTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_iconTintMode = global::BarcodeScanner.Resource.Styleable.MenuItem_iconTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_numericModifiers = global::BarcodeScanner.Resource.Styleable.MenuItem_numericModifiers;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_showAsAction = global::BarcodeScanner.Resource.Styleable.MenuItem_showAsAction;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_tooltipText = global::BarcodeScanner.Resource.Styleable.MenuItem_tooltipText;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView = global::BarcodeScanner.Resource.Styleable.MenuView;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_headerBackground = global::BarcodeScanner.Resource.Styleable.MenuView_android_headerBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_horizontalDivider = global::BarcodeScanner.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_itemBackground = global::BarcodeScanner.Resource.Styleable.MenuView_android_itemBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::BarcodeScanner.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_itemTextAppearance = global::BarcodeScanner.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_verticalDivider = global::BarcodeScanner.Resource.Styleable.MenuView_android_verticalDivider;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_windowAnimationStyle = global::BarcodeScanner.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_preserveIconSpacing = global::BarcodeScanner.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_subMenuArrow = global::BarcodeScanner.Resource.Styleable.MenuView_subMenuArrow;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindow = global::BarcodeScanner.Resource.Styleable.PopupWindow;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindowBackgroundState = global::BarcodeScanner.Resource.Styleable.PopupWindowBackgroundState;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::BarcodeScanner.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::BarcodeScanner.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindow_android_popupBackground = global::BarcodeScanner.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindow_overlapAnchor = global::BarcodeScanner.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::ZXing.Net.Mobile.Resource.Styleable.RecycleListView = global::BarcodeScanner.Resource.Styleable.RecycleListView;
+			global::ZXing.Net.Mobile.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::BarcodeScanner.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::ZXing.Net.Mobile.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::BarcodeScanner.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView = global::BarcodeScanner.Resource.Styleable.SearchView;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_android_focusable = global::BarcodeScanner.Resource.Styleable.SearchView_android_focusable;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_android_imeOptions = global::BarcodeScanner.Resource.Styleable.SearchView_android_imeOptions;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_android_inputType = global::BarcodeScanner.Resource.Styleable.SearchView_android_inputType;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_android_maxWidth = global::BarcodeScanner.Resource.Styleable.SearchView_android_maxWidth;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_closeIcon = global::BarcodeScanner.Resource.Styleable.SearchView_closeIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_commitIcon = global::BarcodeScanner.Resource.Styleable.SearchView_commitIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_defaultQueryHint = global::BarcodeScanner.Resource.Styleable.SearchView_defaultQueryHint;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_goIcon = global::BarcodeScanner.Resource.Styleable.SearchView_goIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_iconifiedByDefault = global::BarcodeScanner.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_layout = global::BarcodeScanner.Resource.Styleable.SearchView_layout;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_queryBackground = global::BarcodeScanner.Resource.Styleable.SearchView_queryBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_queryHint = global::BarcodeScanner.Resource.Styleable.SearchView_queryHint;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_searchHintIcon = global::BarcodeScanner.Resource.Styleable.SearchView_searchHintIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_searchIcon = global::BarcodeScanner.Resource.Styleable.SearchView_searchIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_submitBackground = global::BarcodeScanner.Resource.Styleable.SearchView_submitBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_suggestionRowLayout = global::BarcodeScanner.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_voiceIcon = global::BarcodeScanner.Resource.Styleable.SearchView_voiceIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner = global::BarcodeScanner.Resource.Styleable.Spinner;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner_android_dropDownWidth = global::BarcodeScanner.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner_android_entries = global::BarcodeScanner.Resource.Styleable.Spinner_android_entries;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner_android_popupBackground = global::BarcodeScanner.Resource.Styleable.Spinner_android_popupBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner_android_prompt = global::BarcodeScanner.Resource.Styleable.Spinner_android_prompt;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner_popupTheme = global::BarcodeScanner.Resource.Styleable.Spinner_popupTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable = global::BarcodeScanner.Resource.Styleable.StateListDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawableItem = global::BarcodeScanner.Resource.Styleable.StateListDrawableItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawableItem_android_drawable = global::BarcodeScanner.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_constantSize = global::BarcodeScanner.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_dither = global::BarcodeScanner.Resource.Styleable.StateListDrawable_android_dither;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::BarcodeScanner.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::BarcodeScanner.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_variablePadding = global::BarcodeScanner.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_visible = global::BarcodeScanner.Resource.Styleable.StateListDrawable_android_visible;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat = global::BarcodeScanner.Resource.Styleable.SwitchCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_android_textOff = global::BarcodeScanner.Resource.Styleable.SwitchCompat_android_textOff;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_android_textOn = global::BarcodeScanner.Resource.Styleable.SwitchCompat_android_textOn;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_android_thumb = global::BarcodeScanner.Resource.Styleable.SwitchCompat_android_thumb;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_showText = global::BarcodeScanner.Resource.Styleable.SwitchCompat_showText;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_splitTrack = global::BarcodeScanner.Resource.Styleable.SwitchCompat_splitTrack;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_switchMinWidth = global::BarcodeScanner.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_switchPadding = global::BarcodeScanner.Resource.Styleable.SwitchCompat_switchPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_switchTextAppearance = global::BarcodeScanner.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_thumbTextPadding = global::BarcodeScanner.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_thumbTint = global::BarcodeScanner.Resource.Styleable.SwitchCompat_thumbTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_thumbTintMode = global::BarcodeScanner.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_track = global::BarcodeScanner.Resource.Styleable.SwitchCompat_track;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_trackTint = global::BarcodeScanner.Resource.Styleable.SwitchCompat_trackTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_trackTintMode = global::BarcodeScanner.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance = global::BarcodeScanner.Resource.Styleable.TextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_fontFamily = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_shadowColor = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_shadowDx = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_shadowDy = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_shadowRadius = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textColor = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_textColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textColorHint = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textColorLink = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textFontWeight = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textSize = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_textSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textStyle = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_textStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_typeface = global::BarcodeScanner.Resource.Styleable.TextAppearance_android_typeface;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_fontFamily = global::BarcodeScanner.Resource.Styleable.TextAppearance_fontFamily;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_fontVariationSettings = global::BarcodeScanner.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_textAllCaps = global::BarcodeScanner.Resource.Styleable.TextAppearance_textAllCaps;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_textLocale = global::BarcodeScanner.Resource.Styleable.TextAppearance_textLocale;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar = global::BarcodeScanner.Resource.Styleable.Toolbar;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_android_gravity = global::BarcodeScanner.Resource.Styleable.Toolbar_android_gravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_android_minHeight = global::BarcodeScanner.Resource.Styleable.Toolbar_android_minHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_buttonGravity = global::BarcodeScanner.Resource.Styleable.Toolbar_buttonGravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_collapseContentDescription = global::BarcodeScanner.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_collapseIcon = global::BarcodeScanner.Resource.Styleable.Toolbar_collapseIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetEnd = global::BarcodeScanner.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::BarcodeScanner.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetLeft = global::BarcodeScanner.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetRight = global::BarcodeScanner.Resource.Styleable.Toolbar_contentInsetRight;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetStart = global::BarcodeScanner.Resource.Styleable.Toolbar_contentInsetStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::BarcodeScanner.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_logo = global::BarcodeScanner.Resource.Styleable.Toolbar_logo;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_logoDescription = global::BarcodeScanner.Resource.Styleable.Toolbar_logoDescription;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_maxButtonHeight = global::BarcodeScanner.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_menu = global::BarcodeScanner.Resource.Styleable.Toolbar_menu;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_navigationContentDescription = global::BarcodeScanner.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_navigationIcon = global::BarcodeScanner.Resource.Styleable.Toolbar_navigationIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_popupTheme = global::BarcodeScanner.Resource.Styleable.Toolbar_popupTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_subtitle = global::BarcodeScanner.Resource.Styleable.Toolbar_subtitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_subtitleTextAppearance = global::BarcodeScanner.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_subtitleTextColor = global::BarcodeScanner.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_title = global::BarcodeScanner.Resource.Styleable.Toolbar_title;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMargin = global::BarcodeScanner.Resource.Styleable.Toolbar_titleMargin;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMarginBottom = global::BarcodeScanner.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMarginEnd = global::BarcodeScanner.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMargins = global::BarcodeScanner.Resource.Styleable.Toolbar_titleMargins;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMarginStart = global::BarcodeScanner.Resource.Styleable.Toolbar_titleMarginStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMarginTop = global::BarcodeScanner.Resource.Styleable.Toolbar_titleMarginTop;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleTextAppearance = global::BarcodeScanner.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleTextColor = global::BarcodeScanner.Resource.Styleable.Toolbar_titleTextColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.View = global::BarcodeScanner.Resource.Styleable.View;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewBackgroundHelper = global::BarcodeScanner.Resource.Styleable.ViewBackgroundHelper;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewBackgroundHelper_android_background = global::BarcodeScanner.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::BarcodeScanner.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::BarcodeScanner.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewStubCompat = global::BarcodeScanner.Resource.Styleable.ViewStubCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewStubCompat_android_id = global::BarcodeScanner.Resource.Styleable.ViewStubCompat_android_id;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewStubCompat_android_inflatedId = global::BarcodeScanner.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewStubCompat_android_layout = global::BarcodeScanner.Resource.Styleable.ViewStubCompat_android_layout;
+			global::ZXing.Net.Mobile.Resource.Styleable.View_android_focusable = global::BarcodeScanner.Resource.Styleable.View_android_focusable;
+			global::ZXing.Net.Mobile.Resource.Styleable.View_android_theme = global::BarcodeScanner.Resource.Styleable.View_android_theme;
+			global::ZXing.Net.Mobile.Resource.Styleable.View_paddingEnd = global::BarcodeScanner.Resource.Styleable.View_paddingEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.View_paddingStart = global::BarcodeScanner.Resource.Styleable.View_paddingStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.View_theme = global::BarcodeScanner.Resource.Styleable.View_theme;
+			global::ZXing.Net.Mobile.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::BarcodeScanner.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 		}
 		
 		public partial class Animation
@@ -3621,481 +5344,487 @@ namespace BarcodeScanner
 			public const int content = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int contentPanel = 2131230805;
+			public const int contentFrame = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int coordinator = 2131230806;
+			public const int contentPanel = 2131230806;
+			
+			// aapt resource value: 0x7F080057
+			public const int coordinator = 2131230807;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F080057
-			public const int custom = 2131230807;
-			
 			// aapt resource value: 0x7F080058
-			public const int customPanel = 2131230808;
+			public const int custom = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int decor_content_parent = 2131230809;
+			public const int customPanel = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int default_activity_button = 2131230810;
+			public const int decor_content_parent = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int design_bottom_sheet = 2131230811;
+			public const int default_activity_button = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int design_menu_item_action_area = 2131230812;
+			public const int design_bottom_sheet = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int design_menu_item_action_area_stub = 2131230813;
+			public const int design_menu_item_action_area = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int design_menu_item_text = 2131230814;
+			public const int design_menu_item_action_area_stub = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int design_navigation_view = 2131230815;
+			public const int design_menu_item_text = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int dialog_button = 2131230816;
+			public const int design_navigation_view = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int disableHome = 2131230817;
+			public const int dialog_button = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int edit_query = 2131230818;
+			public const int disableHome = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int end = 2131230819;
+			public const int edit_query = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int enterAlways = 2131230820;
+			public const int end = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int enterAlwaysCollapsed = 2131230821;
+			public const int enterAlways = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int exitUntilCollapsed = 2131230822;
-			
-			// aapt resource value: 0x7F080068
-			public const int expanded_menu = 2131230824;
+			public const int enterAlwaysCollapsed = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int expand_activities_button = 2131230823;
+			public const int exitUntilCollapsed = 2131230823;
 			
 			// aapt resource value: 0x7F080069
-			public const int fill = 2131230825;
+			public const int expanded_menu = 2131230825;
 			
-			// aapt resource value: 0x7F08006C
-			public const int filled = 2131230828;
+			// aapt resource value: 0x7F080068
+			public const int expand_activities_button = 2131230824;
 			
 			// aapt resource value: 0x7F08006A
-			public const int fill_horizontal = 2131230826;
-			
-			// aapt resource value: 0x7F08006B
-			public const int fill_vertical = 2131230827;
+			public const int fill = 2131230826;
 			
 			// aapt resource value: 0x7F08006D
-			public const int @fixed = 2131230829;
+			public const int filled = 2131230829;
+			
+			// aapt resource value: 0x7F08006B
+			public const int fill_horizontal = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int fill_vertical = 2131230828;
 			
 			// aapt resource value: 0x7F08006E
-			public const int forever = 2131230830;
+			public const int @fixed = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int fragment_container_view_tag = 2131230831;
+			public const int forever = 2131230831;
+			
+			// aapt resource value: 0x7F080070
+			public const int fragment_container_view_tag = 2131230832;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F080070
-			public const int ghost_view = 2131230832;
-			
 			// aapt resource value: 0x7F080071
-			public const int ghost_view_holder = 2131230833;
+			public const int ghost_view = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int group_divider = 2131230834;
+			public const int ghost_view_holder = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int home = 2131230835;
+			public const int group_divider = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int homeAsUp = 2131230836;
+			public const int home = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int icon = 2131230837;
+			public const int homeAsUp = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int icon_group = 2131230838;
+			public const int icon = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int ifRoom = 2131230839;
+			public const int icon_group = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int image = 2131230840;
+			public const int ifRoom = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int info = 2131230841;
+			public const int image = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int italic = 2131230842;
+			public const int info = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int item_touch_helper_previous_elevation = 2131230843;
+			public const int italic = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int labeled = 2131230844;
+			public const int item_touch_helper_previous_elevation = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int largeLabel = 2131230845;
+			public const int labeled = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int left = 2131230846;
+			public const int largeLabel = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int line1 = 2131230847;
+			public const int left = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int line3 = 2131230848;
+			public const int line1 = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int linearLayout1 = 2131230849;
+			public const int line3 = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int listMode = 2131230850;
+			public const int linearLayout1 = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int list_item = 2131230851;
+			public const int listMode = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int masked = 2131230852;
+			public const int list_item = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int message = 2131230853;
+			public const int masked = 2131230853;
+			
+			// aapt resource value: 0x7F080086
+			public const int message = 2131230854;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F080086
-			public const int middle = 2131230854;
-			
 			// aapt resource value: 0x7F080087
-			public const int mini = 2131230855;
+			public const int middle = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int mtrl_child_content_container = 2131230856;
+			public const int mini = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int mtrl_internal_children_alpha_tag = 2131230857;
+			public const int mtrl_child_content_container = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int multiply = 2131230858;
+			public const int mtrl_internal_children_alpha_tag = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int navigation_header_container = 2131230859;
+			public const int multiply = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int never = 2131230860;
+			public const int navigation_header_container = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int none = 2131230861;
+			public const int never = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int normal = 2131230862;
+			public const int none = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int notification_background = 2131230863;
+			public const int normal = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int notification_main_column = 2131230864;
+			public const int notification_background = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int notification_main_column_container = 2131230865;
+			public const int notification_main_column = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int off = 2131230866;
+			public const int notification_main_column_container = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int on = 2131230867;
+			public const int off = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int outline = 2131230868;
+			public const int on = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int parallax = 2131230869;
+			public const int outline = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int parentPanel = 2131230870;
+			public const int parallax = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int parent_matrix = 2131230871;
+			public const int parentPanel = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int pin = 2131230872;
+			public const int parent_matrix = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int progress_circular = 2131230873;
+			public const int pin = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int progress_horizontal = 2131230874;
+			public const int progress_circular = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int radio = 2131230875;
+			public const int progress_horizontal = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int right = 2131230876;
+			public const int radio = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int right_icon = 2131230877;
+			public const int right = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int right_side = 2131230878;
+			public const int right_icon = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int save_non_transition_alpha = 2131230879;
+			public const int right_side = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int save_overlay_view = 2131230880;
+			public const int save_non_transition_alpha = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int screen = 2131230881;
+			public const int save_overlay_view = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int scroll = 2131230882;
-			
-			// aapt resource value: 0x7F0800A6
-			public const int scrollable = 2131230886;
+			public const int screen = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int scrollIndicatorDown = 2131230883;
-			
-			// aapt resource value: 0x7F0800A4
-			public const int scrollIndicatorUp = 2131230884;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int scrollView = 2131230885;
+			public const int scroll = 2131230883;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int search_badge = 2131230887;
+			public const int scrollable = 2131230887;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int scrollIndicatorDown = 2131230884;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int scrollIndicatorUp = 2131230885;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int scrollView = 2131230886;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int search_bar = 2131230888;
+			public const int search_badge = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int search_button = 2131230889;
+			public const int search_bar = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int search_close_btn = 2131230890;
+			public const int search_button = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int search_edit_frame = 2131230891;
+			public const int search_close_btn = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int search_go_btn = 2131230892;
+			public const int search_edit_frame = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int search_mag_icon = 2131230893;
+			public const int search_go_btn = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int search_plate = 2131230894;
+			public const int search_mag_icon = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int search_src_text = 2131230895;
+			public const int search_plate = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int search_voice_btn = 2131230896;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int selected = 2131230898;
+			public const int search_src_text = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int select_dialog_listview = 2131230897;
+			public const int search_voice_btn = 2131230897;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int selected = 2131230899;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int select_dialog_listview = 2131230898;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F0800B3
-			public const int shortcut = 2131230899;
-			
 			// aapt resource value: 0x7F0800B4
-			public const int showCustom = 2131230900;
+			public const int shortcut = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int showHome = 2131230901;
+			public const int showCustom = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int showTitle = 2131230902;
+			public const int showHome = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int smallLabel = 2131230903;
+			public const int showTitle = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int snackbar_action = 2131230904;
+			public const int smallLabel = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int snackbar_text = 2131230905;
+			public const int snackbar_action = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int snap = 2131230906;
+			public const int snackbar_text = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int snapMargins = 2131230907;
+			public const int snap = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int spacer = 2131230908;
+			public const int snapMargins = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int split_action_bar = 2131230909;
+			public const int spacer = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int src_atop = 2131230910;
+			public const int split_action_bar = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int src_in = 2131230911;
+			public const int src_atop = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int src_over = 2131230912;
+			public const int src_in = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int start = 2131230913;
+			public const int src_over = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int stretch = 2131230914;
+			public const int start = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int submenuarrow = 2131230915;
+			public const int stretch = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int submit_area = 2131230916;
+			public const int submenuarrow = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int submit_area = 2131230917;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800C5
-			public const int tabMode = 2131230917;
-			
 			// aapt resource value: 0x7F0800C6
-			public const int tag_accessibility_actions = 2131230918;
+			public const int tabMode = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int tag_accessibility_clickable_spans = 2131230919;
+			public const int tag_accessibility_actions = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int tag_accessibility_heading = 2131230920;
+			public const int tag_accessibility_clickable_spans = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int tag_accessibility_pane_title = 2131230921;
+			public const int tag_accessibility_heading = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int tag_screen_reader_focusable = 2131230922;
+			public const int tag_accessibility_pane_title = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int tag_transition_group = 2131230923;
+			public const int tag_screen_reader_focusable = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int tag_unhandled_key_event_manager = 2131230924;
+			public const int tag_transition_group = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int tag_unhandled_key_listeners = 2131230925;
+			public const int tag_unhandled_key_event_manager = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int text = 2131230926;
+			public const int tag_unhandled_key_listeners = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int text2 = 2131230927;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int textinput_counter = 2131230933;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int textinput_error = 2131230934;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int textinput_helper_text = 2131230935;
+			public const int text = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int textSpacerNoButtons = 2131230928;
+			public const int text2 = 2131230928;
 			
-			// aapt resource value: 0x7F0800D1
-			public const int textSpacerNoTitle = 2131230929;
-			
-			// aapt resource value: 0x7F0800D2
-			public const int textStart = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int textViewBarcodeResult = 2131230931;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int text_input_password_toggle = 2131230932;
+			// aapt resource value: 0x7F0800D7
+			public const int textinput_counter = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int time = 2131230936;
+			public const int textinput_error = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int title = 2131230937;
+			public const int textinput_helper_text = 2131230937;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int textSpacerNoButtons = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int textSpacerNoTitle = 2131230930;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int textStart = 2131230931;
+			
+			// aapt resource value: 0x7F0800D4
+			public const int textViewBarcodeFormat = 2131230932;
+			
+			// aapt resource value: 0x7F0800D5
+			public const int textViewBarcodeResult = 2131230933;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int text_input_password_toggle = 2131230934;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int titleDividerNoCustom = 2131230938;
+			public const int time = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int title_template = 2131230939;
+			public const int title = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int top = 2131230940;
+			public const int titleDividerNoCustom = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int topPanel = 2131230941;
+			public const int title_template = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int touch_outside = 2131230942;
+			public const int top = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int transition_current_scene = 2131230943;
+			public const int topPanel = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int transition_layout_save = 2131230944;
+			public const int touch_outside = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int transition_position = 2131230945;
+			public const int transition_current_scene = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int transition_scene_layoutid_cache = 2131230946;
+			public const int transition_layout_save = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int transition_transform = 2131230947;
+			public const int transition_position = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int @unchecked = 2131230948;
+			public const int transition_scene_layoutid_cache = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int uniform = 2131230949;
+			public const int transition_transform = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int unlabeled = 2131230950;
+			public const int @unchecked = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int up = 2131230951;
+			public const int uniform = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int useLogo = 2131230952;
+			public const int unlabeled = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int view_offset_helper = 2131230953;
+			public const int up = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int view_tree_saved_state_registry_owner = 2131230954;
+			public const int useLogo = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int visible = 2131230955;
+			public const int view_offset_helper = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int visible_removing_fragment_view_tag = 2131230956;
+			public const int view_tree_saved_state_registry_owner = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int withText = 2131230957;
+			public const int visible = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int wrap_content = 2131230958;
+			public const int visible_removing_fragment_view_tag = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int withText = 2131230959;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int wrap_content = 2131230960;
 			
 			static Id()
 			{
@@ -4387,6 +6116,12 @@ namespace BarcodeScanner
 			
 			// aapt resource value: 0x7F0B0039
 			public const int support_simple_spinner_dropdown_item = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int zxingscanneractivitylayout = 2131427386;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int zxingscannerfragmentlayout = 2131427387;
 			
 			static Layout()
 			{
