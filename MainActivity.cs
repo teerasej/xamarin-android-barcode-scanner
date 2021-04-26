@@ -1,7 +1,9 @@
-﻿using Android.App;
+using Android.App;
 using Android.OS;
 using Android.Runtime;
+using Android.Widget;
 using AndroidX.AppCompat.App;
+using ZXing.Mobile;
 
 namespace BarcodeScanner
 {
@@ -14,6 +16,10 @@ namespace BarcodeScanner
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+
+            var buttonScan = FindViewById<Button>(Resource.Id.buttonScan);
+            var textBarcodeResult = FindViewById<TextView>(Resource.Id.textViewBarcodeResult);
+            var textBarcodeFormat = FindViewById<TextView>(Resource.Id.textViewBarcodeFormat);
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
