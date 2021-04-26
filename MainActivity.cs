@@ -1,4 +1,4 @@
-using Android.App;
+﻿using Android.App;
 using Android.OS;
 using Android.Runtime;
 using Android.Widget;
@@ -20,6 +20,19 @@ namespace BarcodeScanner
             var buttonScan = FindViewById<Button>(Resource.Id.buttonScan);
             var textBarcodeResult = FindViewById<TextView>(Resource.Id.textViewBarcodeResult);
             var textBarcodeFormat = FindViewById<TextView>(Resource.Id.textViewBarcodeFormat);
+
+            buttonScan.Click += async (sender, e) =>
+            {
+                var scanner = new MobileBarcodeScanner();
+                var result = await scanner.Scan();
+
+                if(result != null)
+                {
+                    textBarcodeResult.Text = result.Text;
+                    textBarcodeFormat.Text = result.BarcodeFormat.ToString();
+                }
+            };
+
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
